@@ -301,7 +301,7 @@ export default function AIRealtor() {
       <div className="gold-rule-full" />
 
       {/* ══════════════════════════════════════════
-          SECTION 2 — VIDEO PLACEHOLDER
+          SECTION 2 — VIDEO
       ══════════════════════════════════════════ */}
       <FadeSection
         id="video"
@@ -311,57 +311,27 @@ export default function AIRealtor() {
           className="content-wrap fade-up"
           style={{ maxWidth: '896px' }}
         >
-          {/* 16:9 aspect-ratio container */}
           <div
             style={{
               position: 'relative',
               width: '100%',
               paddingBottom: '56.25%',
-              backgroundColor: 'var(--color-primary)',
-              border: '1px solid var(--color-accent)',
             }}
           >
-            <div
+            <iframe
+              src="https://www.youtube.com/embed/89wKDmbkvz8"
+              title="AI Realtor System Overview"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
               style={{
                 position: 'absolute',
-                inset: 0,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '20px',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                border: 'none',
               }}
-            >
-              {/* Play button icon */}
-              <div
-                style={{
-                  width: '72px',
-                  height: '72px',
-                  borderRadius: '50%',
-                  border: '2px solid var(--color-accent)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <polygon points="8,5 19,12 8,19" fill="var(--color-accent)" />
-                </svg>
-              </div>
-              <p
-                style={{
-                  fontFamily: 'var(--font-sans)',
-                  fontSize: '13px',
-                  fontWeight: 400,
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.1em',
-                  color: 'var(--color-accent)',
-                }}
-              >
-                Overview video coming soon
-              </p>
-            </div>
+            />
           </div>
         </div>
       </FadeSection>
