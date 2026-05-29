@@ -30,6 +30,7 @@ const MAIN_LINKS = [
   { label: 'Market Pulse',  to: '/daybreak-market-pulse' },
   { label: 'About',         to: '/about' },
   { label: 'Daybreak FAQ',  to: '/daybreak-faq' },
+  { label: 'Become an AI Realtor',   to: '/ai-realtor' },
   { label: 'Contact',                to: '/contact' },
 ]
 
@@ -80,8 +81,6 @@ export default function Navigation() {
       >
         <div
           style={{
-            maxWidth: 'var(--max-content)',
-            margin: '0 auto',
             padding: '0 24px',
             width: '100%',
             display: 'flex',

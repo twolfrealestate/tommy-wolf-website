@@ -34,6 +34,9 @@ import HighlandParkVillage from './pages/service-areas/neighborhoods/HighlandPar
 import SpringHouseVillage from './pages/service-areas/neighborhoods/SpringHouseVillage'
 import CreeksideVillage from './pages/service-areas/neighborhoods/CreeksideVillage'
 
+// AI Realtor
+import AIRealtor from './pages/AIRealtor'
+
 // Admin
 import AdminLeads from './pages/AdminLeads'
 import AdminMarketUpdate from './pages/AdminMarketUpdate'
@@ -124,6 +127,9 @@ export default function App() {
             <Route path="/daybreak-features/soda-row-shopping" element={<SodaRowShopping />} />
             <Route path="/daybreak-features/downtown-daybreak" element={<DowntownDaybreak />} />
             <Route path="/daybreak-features/livedaybreak" element={<LiveDaybreak />} />
+
+            {/* AI Realtor */}
+            <Route path="/ai-realtor" element={<AIRealtor />} />
 
             {/* Admin — not in nav */}
             <Route path="/admin/leads" element={<AdminLeads />} />

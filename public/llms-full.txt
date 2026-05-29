@@ -1,6 +1,6 @@
 # FULL SITE CONTENT
 # Move to Daybreak | Tommy Wolf, REALTOR®
-# Generated: 2026-05-27T16:02:19.173Z
+# Generated: 2026-05-29T17:46:19.118Z
 
 ---
 
@@ -213,17 +213,9 @@ How Daybreak compares to Lehi, Saratoga Springs, Eagle Mountain, and other growi
 
 ## BLOG POSTS
 
-### Daybreak Market Update — Q1 2025
-URL: https://movetodaybreak.com/newsletter/daybreak-market-update-q1-2025
-Published: 2025-04-01
-Tags: market update, daybreak, quarterly
-
-Q1 2025 Daybreak real estate: median prices, days on market, and what's moving across South Jordan neighborhoods.
-Q1 brought steady demand across Daybreak's single-family and townhome segments. Here's what the numbers show.
-
 ### What the New TRAX Stop Means for Daybreak Home Values
 URL: https://movetodaybreak.com/newsletter/trax-stop-daybreak-home-values
-Published: 2025-03-15
+Published: 2026-05-27
 Tags: development, daybreak, transportation
 
 How Downtown Daybreak's third TRAX stop is affecting buyer demand and property values near South Station.
@@ -231,7 +223,7 @@ The 2025 opening of Daybreak's third TRAX stop created a new accessibility advan
 
 ### HOA Fee Changes for 2026 — What Daybreak Homeowners Need to Know
 URL: https://movetodaybreak.com/newsletter/hoa-fee-changes-2026-daybreak
-Published: 2025-02-20
+Published: 2026-05-27
 Tags: HOA, daybreak, assessments
 
 A breakdown of the 2026 DCA assessment rate changes and what they mean for Daybreak buyers, sellers, and homeowners.
