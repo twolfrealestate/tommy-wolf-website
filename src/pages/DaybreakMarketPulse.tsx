@@ -273,6 +273,7 @@ export default function DaybreakMarketPulse() {
                   />
                   <Tooltip
                     contentStyle={CHART_TOOLTIP_STYLE}
+                    itemStyle={{ color: '#ffffff' }}
                     formatter={v => [`$${Number(v).toLocaleString()}`, 'Median Price']}
                   />
                   <Line type="monotone" dataKey="medianPrice" stroke="#0A0A0A" strokeWidth={2} dot={{ fill: '#C9A84C', r: 4 }} />
@@ -291,6 +292,7 @@ export default function DaybreakMarketPulse() {
                   <YAxis tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <Tooltip
                     contentStyle={CHART_TOOLTIP_STYLE}
+                    itemStyle={{ color: '#ffffff' }}
                     formatter={v => [Number(v), 'Days']}
                   />
                   <Bar dataKey="dom" fill="#C9A84C" radius={[2, 2, 0, 0]} />
@@ -309,6 +311,7 @@ export default function DaybreakMarketPulse() {
                   <YAxis tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <Tooltip
                     contentStyle={CHART_TOOLTIP_STYLE}
+                    itemStyle={{ color: '#ffffff' }}
                     formatter={v => [Number(v), 'Homes Sold']}
                   />
                   <Bar dataKey="sold" fill="#0A0A0A" radius={[2, 2, 0, 0]} />
@@ -331,6 +334,7 @@ export default function DaybreakMarketPulse() {
                   />
                   <Tooltip
                     contentStyle={CHART_TOOLTIP_STYLE}
+                    itemStyle={{ color: '#ffffff' }}
                     formatter={v => [`${Number(v).toFixed(2)}%`, 'List-to-Sale']}
                   />
                   <ReferenceLine y={100} stroke="#888" strokeDasharray="4 4" label={{ value: '100%', fontSize: 11, fill: '#888' }} />
