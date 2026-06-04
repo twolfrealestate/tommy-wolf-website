@@ -276,7 +276,7 @@ export default function DaybreakMarketPulse() {
                     formatter={v => [`$${Number(v).toLocaleString()}`, 'Median Price']}
                   />
                   <Line type="monotone" dataKey="medianPrice" stroke="#0A0A0A" strokeWidth={2} dot={{ fill: '#C9A84C', r: 4 }}>
-                    <LabelList dataKey="medianPrice" position="top" formatter={(v: number) => `$${(v / 1000).toFixed(0)}K`} fill="#C9A84C" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px' }} />
+                    <LabelList dataKey="medianPrice" position="top" formatter={(v: number) => `$${(v / 1000).toFixed(0)}K`} fill="#ffffff" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px' }} />
                   </Line>
                 </LineChart>
               </ResponsiveContainer>
@@ -316,7 +316,7 @@ export default function DaybreakMarketPulse() {
                     formatter={v => [Number(v), 'Homes Sold']}
                   />
                   <Bar dataKey="sold" fill="#0A0A0A" radius={[2, 2, 0, 0]}>
-                    <LabelList dataKey="sold" position="top" fill="#C9A84C" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px' }} />
+                    <LabelList dataKey="sold" position="top" fill="#ffffff" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px' }} />
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
