@@ -92,8 +92,8 @@ const CHART_TOOLTIP_STYLE = {
   fontFamily: 'var(--font-sans)',
   fontSize: '12px',
   backgroundColor: '#1a1a1a',
-  border: '1px solid #333',
-  color: '#fff',
+  border: '1px solid #C9A84C',
+  color: '#ffffff',
 }
 
 // ── ChartCard ────────────────────────────────────────────────────────────────
