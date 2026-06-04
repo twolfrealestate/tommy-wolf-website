@@ -276,7 +276,7 @@ export default function DaybreakMarketPulse() {
                     formatter={v => [`$${Number(v).toLocaleString()}`, 'Median Price']}
                   />
                   <Line type="monotone" dataKey="medianPrice" stroke="#0A0A0A" strokeWidth={2} dot={{ fill: '#C9A84C', r: 4 }}>
-                    <LabelList dataKey="medianPrice" position="top" formatter={(v: number) => `$${(v / 1000).toFixed(0)}K`} style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', fill: '#1a1a1a' }} />
+                    <LabelList dataKey="medianPrice" position="top" formatter={(v: number) => `$${(v / 1000).toFixed(0)}K`} style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', fill: '#C9A84C' }} />
                   </Line>
                 </LineChart>
               </ResponsiveContainer>
@@ -296,7 +296,7 @@ export default function DaybreakMarketPulse() {
                     formatter={v => [Number(v), 'Days']}
                   />
                   <Bar dataKey="dom" fill="#C9A84C" radius={[2, 2, 0, 0]}>
-                    <LabelList dataKey="dom" position="top" style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', fill: '#1a1a1a' }} />
+                    <LabelList dataKey="dom" position="top" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', fill: '#C9A84C' }} />
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
@@ -316,7 +316,7 @@ export default function DaybreakMarketPulse() {
                     formatter={v => [Number(v), 'Homes Sold']}
                   />
                   <Bar dataKey="sold" fill="#0A0A0A" radius={[2, 2, 0, 0]}>
-                    <LabelList dataKey="sold" position="top" style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', fill: '#1a1a1a' }} />
+                    <LabelList dataKey="sold" position="top" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', fill: '#C9A84C' }} />
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
@@ -341,7 +341,7 @@ export default function DaybreakMarketPulse() {
                   />
                   <ReferenceLine y={100} stroke="#888" strokeDasharray="4 4" label={{ value: '100%', fontSize: 11, fill: '#888' }} />
                   <Line type="monotone" dataKey="ratio" stroke="#C9A84C" strokeWidth={2} dot={{ fill: '#C9A84C', r: 4 }}>
-                    <LabelList dataKey="ratio" position="top" formatter={(v: number) => `${v.toFixed(1)}%`} style={{ fontFamily: 'var(--font-sans)', fontSize: '10px', fill: '#1a1a1a' }} />
+                    <LabelList dataKey="ratio" position="top" formatter={(v: number) => `${v.toFixed(1)}%`} style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', fill: '#C9A84C' }} />
                   </Line>
                 </LineChart>
               </ResponsiveContainer>
