@@ -264,7 +264,7 @@ export default function DaybreakMarketPulse() {
           <div className="fade-up">
             <ChartCard title="Median Sale Price" subtitle={`Closed transactions, zip 84009 · ${homeType}`}>
               <ResponsiveContainer width="100%" height={220}>
-                <LineChart data={chartData} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
+                <LineChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
                   <XAxis dataKey="label" tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <YAxis
@@ -287,7 +287,7 @@ export default function DaybreakMarketPulse() {
           <div className="fade-up">
             <ChartCard title="Days on Market" subtitle={`Median days from list to contract · ${homeType}`}>
               <ResponsiveContainer width="100%" height={220}>
-                <BarChart data={chartData} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
+                <BarChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
                   <XAxis dataKey="label" tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <YAxis tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
@@ -307,7 +307,7 @@ export default function DaybreakMarketPulse() {
           <div className="fade-up">
             <ChartCard title="Homes Sold" subtitle={`Total closed sales per period · ${homeType}`}>
               <ResponsiveContainer width="100%" height={220}>
-                <BarChart data={chartData} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
+                <BarChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
                   <XAxis dataKey="label" tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <YAxis tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
@@ -327,7 +327,7 @@ export default function DaybreakMarketPulse() {
           <div className="fade-up">
             <ChartCard title="List-to-Sale Ratio (%)" subtitle={`Sale price as % of list price · ${homeType}`}>
               <ResponsiveContainer width="100%" height={220}>
-                <LineChart data={chartData} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
+                <LineChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
                   <XAxis dataKey="label" tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
                   <YAxis
