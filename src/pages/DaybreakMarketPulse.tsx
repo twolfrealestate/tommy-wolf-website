@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, ReferenceLine,
+  ResponsiveContainer, ReferenceLine, LabelList,
 } from 'recharts'
 import FadeSection from '../components/FadeSection'
 import { saveLead, validateEmail } from '../lib/leads'
@@ -15,6 +15,7 @@ interface ChartEntry {
   dom: number
   sold: number
   ratio: number
+  ppsf: number
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -37,6 +38,7 @@ function toChartEntries(entries: MonthEntry[], timePeriod: string): ChartEntry[]
       dom: e.medianDOM,
       sold: e.totalSold,
       ratio: e.listToSaleRatio,
+      ppsf: e.pricePerSqFt,
     }))
   }
 
@@ -63,6 +65,7 @@ function toChartEntries(entries: MonthEntry[], timePeriod: string): ChartEntry[]
         dom: Math.round(medianOf(group.filter(e => e.medianDOM > 0).map(e => e.medianDOM))),
         sold: group.reduce((s, e) => s + e.totalSold, 0),
         ratio: parseFloat(medianOf(group.map(e => e.listToSaleRatio)).toFixed(2)),
+        ppsf: Math.round(medianOf(group.map(e => e.pricePerSqFt))),
       }))
   }
 
@@ -81,6 +84,7 @@ function toChartEntries(entries: MonthEntry[], timePeriod: string): ChartEntry[]
         dom: Math.round(medianOf(group.filter(e => e.medianDOM > 0).map(e => e.medianDOM))),
         sold: group.reduce((s, e) => s + e.totalSold, 0),
         ratio: parseFloat(medianOf(group.map(e => e.listToSaleRatio)).toFixed(2)),
+        ppsf: Math.round(medianOf(group.map(e => e.pricePerSqFt))),
       }))
   }
 
@@ -340,6 +344,27 @@ export default function DaybreakMarketPulse() {
                   <ReferenceLine y={100} stroke="#888" strokeDasharray="4 4" label={{ value: '100%', fontSize: 11, fill: '#888' }} />
                   <Line type="monotone" dataKey="ratio" stroke="#C9A84C" strokeWidth={2} dot={{ fill: '#C9A84C', r: 4 }} />
                 </LineChart>
+              </ResponsiveContainer>
+            </ChartCard>
+          </div>
+
+          {/* Chart 5: Price Per Sq Ft */}
+          <div className="fade-up">
+            <ChartCard title="Price Per Sq Ft" subtitle={`Median sale price per square foot · ${homeType}`}>
+              <ResponsiveContainer width="100%" height={220}>
+                <BarChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
+                  <XAxis dataKey="label" tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} />
+                  <YAxis tick={{ fontFamily: 'var(--font-sans)', fontSize: 11 }} tickFormatter={v => `$${v}`} />
+                  <Tooltip
+                    contentStyle={CHART_TOOLTIP_STYLE}
+                    itemStyle={{ color: '#ffffff' }}
+                    formatter={v => [`$${Number(v)}`, 'Price/Sq Ft']}
+                  />
+                  <Bar dataKey="ppsf" fill="#C9A84C" radius={[2, 2, 0, 0]}>
+                    <LabelList dataKey="ppsf" position="top" formatter={(v: number) => `$${v}`} fill="#C9A84C" style={{ fontFamily: 'var(--font-sans)', fontSize: '13px' }} />
+                  </Bar>
+                </BarChart>
               </ResponsiveContainer>
             </ChartCard>
           </div>

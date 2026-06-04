@@ -4,6 +4,7 @@ export interface MonthEntry {
   medianDOM: number
   totalSold: number
   listToSaleRatio: number
+  pricePerSqFt: number
 }
 
 export interface MarketDataMap {
