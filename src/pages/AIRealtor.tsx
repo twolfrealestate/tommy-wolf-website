@@ -3,6 +3,7 @@ import FadeSection from '../components/FadeSection'
 
 const ANCHOR_LINKS = [
   { label: 'Overview',          id: 'overview' },
+  { label: 'Free Setup',        id: 'free-setup' },
   { label: 'The System',        id: 'system' },
   { label: 'Time Savings',      id: 'time-savings' },
   { label: 'Get the Blueprint', id: 'blueprint' },
@@ -297,6 +298,86 @@ export default function AIRealtor() {
           </p>
         </div>
       </div>
+
+      <FadeSection
+        id="free-setup"
+        style={{ backgroundColor: 'var(--color-bg)', padding: 'var(--section-pad-desktop) 24px' }}
+      >
+        <div className="content-wrap" style={{ maxWidth: '720px', textAlign: 'center' }}>
+          <p className="eyebrow fade-up" style={{ marginBottom: '12px' }}>Free Offer</p>
+          <h2
+            className="fade-up"
+            style={{
+              fontFamily: 'var(--font-serif)',
+              fontSize: 'clamp(32px,4vw,44px)',
+              color: 'var(--color-text)',
+              marginBottom: '20px',
+            }}
+          >
+            I'll Set Up Your Social Media System. No Strings.
+          </h2>
+          <span
+            style={{
+              display: 'block',
+              width: '48px',
+              height: '1px',
+              backgroundColor: 'var(--color-accent)',
+              margin: '0 auto 32px',
+            }}
+          />
+          <p
+            className="fade-up"
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: '16px',
+              fontWeight: 300,
+              color: 'var(--color-text-mid)',
+              lineHeight: 1.8,
+              marginBottom: '24px',
+            }}
+          >
+            The Social Media System is one of ten projects in this suite. It takes a single prompt and
+            produces platform-ready posts for Facebook, Instagram, and LinkedIn, a full SEO blog post,
+            and branded graphics — no design tool, no copywriter, no agency.
+          </p>
+          <p
+            className="fade-up"
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: '16px',
+              fontWeight: 300,
+              color: 'var(--color-text-mid)',
+              lineHeight: 1.8,
+              marginBottom: '40px',
+            }}
+          >
+            If you want to see what that looks like running inside your own Claude account, I'll get on a
+            Zoom with you and walk you through the setup start to finish. You'll leave with a working
+            system. There's no pitch, no follow-up obligation, and no mention of eXp unless you ask.
+          </p>
+          <div className="fade-up">
+            <a
+              href="mailto:twolfrealestate@gmail.com?subject=Social Media System Setup"
+              className="btn-gold"
+              style={{ fontSize: '13px', padding: '16px 32px', letterSpacing: '0.1em', display: 'inline-block' }}
+            >
+              Request a Setup Session
+            </a>
+          </div>
+          <p
+            className="fade-up"
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: '12px',
+              color: 'var(--color-text-light)',
+              marginTop: '24px',
+              lineHeight: 1.8,
+            }}
+          >
+            Requires a Claude Pro subscription ($20/month). Setup takes about 45 minutes on Zoom.
+          </p>
+        </div>
+      </FadeSection>
 
       <div className="gold-rule-full" />
 
