@@ -94,6 +94,32 @@ const bodies: Record<string, string> = {
       <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
     </div>
   `,
+  'daybreak-schools-home-values': `
+    <p>Ask five different rating sites how Daybreak School is doing and you'll get five different answers. That inconsistency is actually the story, because it shows up in how buyers shop for homes in Daybreak Utah real estate, whether they realize it or not.</p>
+
+    <h2>🎓 Which District, and What Feeds Into What</h2>
+    <p>Daybreak School (K-6) sits inside Jordan School District, not Canyons, despite what you might see referenced elsewhere. From there, kids move on to Mountain Creek Middle School and then Herriman High School. That's the actual feeder pattern for most of the Daybreak neighborhood guide territory, and it's worth knowing before you start touring homes, since boundary lines can shift block by block.</p>
+
+    <h2>📊 What the Ratings Actually Say, and Which Ones Actually Matter</h2>
+    <p>Not all of these rating sites carry the same weight with buyers, and that's worth knowing before you treat any single grade as gospel.</p>
+    <p>GreatSchools is the one with the most real-world reach, mainly because Zillow and Redfin license its data and display it directly on listing pages. Most buyers see a GreatSchools number without ever visiting GreatSchools itself. Daybreak School isn't always shown with a numeric score there, but the site's own profile describes it as performing above average compared to other Utah schools with the same grade levels.</p>
+    <p>Niche is the other heavyweight. It pulls millions of visits a month, more direct traffic than any other school rating site, and tends to rank high when someone searches a school by name on Google. Niche gives Daybreak School a B grade, ranks it #198 among Utah elementary schools, and shows a 5 out of 5 user rating.</p>
+    <p>SchoolDigger and PlainSchools carry far less weight simply because far fewer people see them. SchoolDigger rates Daybreak School 2 out of 5 stars and ranks it 284th out of 547 statewide, down from 94th in 2017-18, which sounds alarming, but it's a small-audience site compared to GreatSchools and Niche. PlainSchools gives it an F, but that grade is built from resource metrics like student-teacher ratio and counselor availability, not test scores, and the site has the smallest footprint of the four.</p>
+    <p>On actual test proficiency, Daybreak School runs around 42 to 47 percent in math and 49 to 53 percent in reading depending on the source and year, which puts it at or slightly above Jordan District and state averages. That's the number that holds up across sources, even when the letter grades and star ratings built on top of it don't agree.</p>
+    <p>The practical takeaway: if a buyer mentions a school rating while touring a Daybreak home, it's most likely coming from GreatSchools or Niche, not SchoolDigger or PlainSchools. Those are the conversations worth being ready for.</p>
+
+    <h2>🏡 How This Actually Shows Up in Daybreak Home Values</h2>
+    <p>Nationally, school quality is one of the more consistent drivers of buyer behavior. More than half of buyers with kids under 18 say school quality factors into their purchase decision, and that number climbs even higher for buyers in their 30s and 40s. Research has also linked test score gains directly to price gains in some markets.</p>
+    <p>What that means for Daybreak specifically: buyers researching Daybreak schools Utah online are most likely to land on a GreatSchools number through Zillow or Redfin, or a Niche grade if they search directly. Those are the impressions actually shaping decisions. A 2-star SchoolDigger rating or an F from PlainSchools matters less in practice, simply because fewer buyers ever see them, even if the underlying data is worth knowing.</p>
+    <p>That's a real opportunity for sellers. If you're listing a home in Daybreak and your buyer pool includes families, it's worth knowing what shows up on Zillow and Redfin specifically, since that's what most buyers will see first. And if you're buying, don't let a single number from any one site make the decision for you. Visit the school. Talk to neighbors. Weigh the source against how much reach it actually has before you rule a home in or out.</p>
+    <p>Schools are one piece of what makes Daybreak amenities and the broader community work, alongside things like Oquirrh Lake and SoDa Row. But when it comes to home values, the real signal isn't any single rating. It's how informed your decision is.</p>
+
+    <div class="cta-block">
+      <h3>Have Questions About Schools and Home Values in Daybreak?</h3>
+      <p>Whether you're weighing school boundaries before buying or want to know how to talk about schools when listing your home, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+      <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+    </div>
+  `,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
