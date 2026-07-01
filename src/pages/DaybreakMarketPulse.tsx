@@ -207,7 +207,7 @@ export default function DaybreakMarketPulse() {
             }}
           >
             <p style={{ fontFamily: 'var(--font-sans)', fontSize: '13px', color: 'var(--color-text-mid)', lineHeight: 1.7 }}>
-              Data reflects closed MLS transactions in zip code 84009 and is for informational purposes. For a current CMA specific to your home, contact Tommy directly.
+              Data reflects closed MLS transactions in Daybreak and is for informational purposes. For a current CMA specific to your home, contact Tommy directly.
             </p>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function DaybreakMarketPulse() {
         >
           {/* Chart 1: Median Sale Price */}
           <div className="fade-up">
-            <ChartCard title="Median Sale Price" subtitle={`Closed transactions, zip 84009 · ${homeType}`}>
+            <ChartCard title="Median Sale Price" subtitle={`Closed transactions, Daybreak · ${homeType}`}>
               <ResponsiveContainer width="100%" height={220}>
                 <LineChart data={chartData} margin={{ top: 25, right: 10, left: 0, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#f0ede8" />
