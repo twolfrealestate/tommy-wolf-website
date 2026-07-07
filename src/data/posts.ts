@@ -120,6 +120,43 @@ const bodies: Record<string, string> = {
       <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
     </div>
   `,
+  'is-it-a-good-time-to-sell-in-daybreak-2026': `<p>I get some version of this question almost every week: is it a good time to sell in Daybreak? The honest answer depends on what you own. Daybreak home values have held up well this year, but single family homes, townhomes, and new construction are each telling a different story right now. Here's what the numbers actually show.</p>
+
+<h2>📊 Where the Daybreak Housing Market Stands Today</h2>
+
+<p>Daybreak's median sale price has moved in a $527,000 to $650,000 range over the past year, landing at $578,000 as of the most recent reporting month. That's a healthy number, and it comes with a sale-to-list ratio of 99.53 percent, meaning well-priced homes are closing at essentially full asking price.</p>
+
+<p>Days on market in Daybreak is currently running around 35 days, faster than the South Jordan citywide average of roughly 47 days. That gap matters. Daybreak's walkability, schools, and amenities keep it moving faster than the broader market, even as South Jordan's overall active inventory has grown from about 272 homes a year ago to over 460 today.</p>
+
+<p>Mortgage rates are the other piece of this. The 30-year fixed rate has been sitting in the 6.4 to 6.6 percent range through late June and early July, easing slightly off its spring highs. That's not the rate environment of a few years ago, but it hasn't stopped buyers. Daybreak closings were actually up compared to this time last year, which tells me demand is still there for homes priced to today's market, not last year's.</p>
+
+<h2>🏘️ Single Family Homes vs. Townhomes: Two Different Markets</h2>
+
+<p>If you own a single family home in Daybreak, you're in the stronger position right now. Single family inventory across the Salt Lake Valley remains undersupplied, and Daybreak's detached homes are selling close to list price with limited time on market. Buyers moving up from townhomes or relocating from out of state are still competing for the best-located, best-priced single family listings.</p>
+
+<p>Townhomes for sale in Daybreak are moving at a similar pace on paper, averaging around 34 days on market with a median price near $569,900. But the dynamic underneath is different. Attached product across Utah, townhomes and condos included, has shifted toward more of a buyer's market, with roughly six to seven months of supply statewide. In Daybreak specifically, that shows up as more price flexibility and more negotiating room on townhomes compared to detached homes, even though the headline days-on-market numbers look close.</p>
+
+<p>If you're deciding whether to sell a townhome or single family home in Daybreak this summer, the practical difference comes down to pricing discipline. Single family sellers have a bit more room for error. Townhome sellers need to price sharply from day one to avoid sitting.</p>
+
+<h2>📈 New Construction Is Changing the Math for Resale Sellers</h2>
+
+<p>Daybreak new construction homes are a factor every resale seller needs to understand right now, especially with Downtown Daybreak fully open. The first wave of new townhomes along Center Field Drive hit the market this summer, and builders are actively offering rate buydowns and incentives that a resale seller can't easily match.</p>
+
+<p>That competition shows up unevenly across the community. Some newer-phase pockets, like Daybreak Springhouse, have seen days on market stretch out to over 80 days recently, largely because builder standing inventory is competing directly with resale listings in the same footprint. If your home sits near an active building phase, expect more competition and price it accordingly.</p>
+
+<p>On the flip side, established Daybreak neighborhoods away from active construction are seeing steadier demand, since buyers there are choosing a finished, landscaped home over a longer new-construction timeline. Knowing which category your home falls into changes how you should think about pricing and timing.</p>
+
+<h2>🔑 So, Is It a Good Time to Sell?</h2>
+
+<p>For most Daybreak sellers, yes, with a caveat. Sale-to-list ratios near 99.5 percent and days on market under 40 are strong numbers by any historical standard. But 2026 isn't a market where you can list high and wait for a bidding war. Buyers have more choices than they did two years ago, and they're using them.</p>
+
+<p>The sellers doing well right now are the ones pricing realistically from the start, whether they own a single family home, a townhome, or something competing with new construction next door. Understanding which category you fall into is the first step to a smooth sale.</p>
+
+<div class="cta-block">
+  <h3>Wondering What Your Daybreak Home Is Worth Right Now?</h3>
+  <p>Every property and price point in Daybreak is moving a little differently this year. Reach out directly and I'll walk you through exactly where your home stands, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
