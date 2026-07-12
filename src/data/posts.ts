@@ -157,6 +157,28 @@ const bodies: Record<string, string> = {
   <p>Every property and price point in Daybreak is moving a little differently this year. Reach out directly and I'll walk you through exactly where your home stands, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'pricing-daybreak-home-right-2026': `<p>Is it a good time to sell in Daybreak? The honest answer is yes, if you price it correctly from day one. I'm seeing a pattern play out across Daybreak right now: homes priced to match where the market actually sits are moving in a matter of weeks, while homes priced on hope sit for months and end up chasing the market down with price cuts. Daybreak home values haven't collapsed and they haven't spiked either. They've settled into a range, and that range is exactly what a seller needs to understand before putting a sign in the yard.</p>
+
+<h2>📊 Where Daybreak Pricing Stands Right Now</h2>
+<p>As of this summer, Daybreak homes have been selling at a median price around $567,000, up slightly from a year ago, and current listings across the neighborhood are asking a median of $574,000. That gap between what's listed and what's actually selling matters. It tells you buyers are pushing back on asking prices that run ahead of the data.</p>
+<p>Days on market is the number sellers underestimate. Daybreak homes are averaging around 68 days to sell, down from 83 days a year ago, which means the market has some momentum, but 68 days is still more than two months. If your home is sitting past that mark with no offers, the price is usually the reason, not the market.</p>
+<p>Zoom out to South Jordan as a whole, which includes Daybreak plus the surrounding neighborhoods, and homes that closed recently sold at a 98.8% list-to-sale ratio in a median of just 16 days once they hit contract. That ratio is the real signal. Homes priced correctly are landing within a couple percentage points of asking. Homes priced too high are the ones dragging the average days on market up for everyone else.</p>
+
+<h2>🔑 Why Overpricing Costs You More Than It Saves</h2>
+<p>Every seller wants to leave room to negotiate, so the instinct is to list a little high. In this market, that instinct backfires. Buyers today are working with agents who pull comps before they ever schedule a showing, and if your price doesn't match what closed nearby in the last 30 to 60 days, your home gets skipped over in the search results before anyone walks through the door.</p>
+<p>The homes that sit past 60 or 90 days almost always end up selling for less than they would have if they'd been priced right the first time. Buyers see the days on market, they assume something is wrong, and the offers that do come in are lower than they would have been in week one. Pricing your home in Daybreak correctly isn't about being conservative. It's about matching the number to what the current data actually supports, not what a neighbor's home sold for two years ago.</p>
+
+<h2>📈 Property Type and Rates Change the Math</h2>
+<p>Daybreak isn't one market, it's several. Single family homes, townhomes, and condos each carry their own pricing logic, and lumping them together is one of the fastest ways to misprice a listing. A single family home in Daybreak needs to be priced against other single family comps, not against townhome closings that skew the median down.</p>
+<p>Mortgage rates are also part of this conversation whether sellers want them to be or not. The 30-year fixed rate has been sitting in the mid six percent range, recently averaging 6.49% according to Freddie Mac's Primary Mortgage Market Survey, down from 6.72% a year ago. That modest improvement has brought some buyers back into affordability range, which helps explain why homes sold this February outpaced last February by a wide margin. But every fraction of a point still affects what a buyer can qualify for, and it affects where they're willing to stretch on price.</p>
+<p>Downtown Daybreak is another factor worth weighing depending on where your home sits. With new townhomes, retail, and the Pennant apartment building coming online this year near the ballpark, homes closer to that activity are drawing more attention than they were a year ago. If your property is within walking distance of SoDa Row or the new downtown district, that proximity is worth reflecting in your number, backed by recent comps, not a flat premium pulled out of thin air.</p>
+<p>The bottom line for anyone thinking about selling in Daybreak this season: pull the actual comps for your property type, look at what's closed in the last 60 days, and price to the data instead of the wish list. That's what gets a home sold in weeks instead of months.</p>
+
+<div class="cta-block">
+  <h3>Not Sure What Your Daybreak Home Is Worth Right Now?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
