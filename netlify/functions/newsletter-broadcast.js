@@ -1,5 +1,4 @@
 import { Resend } from 'resend'
-import { getStore } from '@netlify/blobs'
 
 const resend = new Resend(process.env.RESEND_MARKETING_API_KEY)
 
@@ -62,56 +61,51 @@ export const handler = async (event) => {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) }
   }
 
-  let posts
   try {
     const res = await fetch(POSTS_META_URL)
     if (!res.ok) {
       throw new Error(`Failed to fetch posts-meta.json: ${res.status}`)
     }
-    posts = await res.json()
-  } catch (err) {
-    console.error(err)
-    return { statusCode: 500, body: JSON.stringify({ error: 'Failed to fetch posts metadata' }) }
-  }
+    const posts = await res.json()
 
-  if (!Array.isArray(posts) || posts.length === 0) {
-    return { statusCode: 200, body: JSON.stringify({ skipped: true, reason: 'no posts' }) }
-  }
+    if (!Array.isArray(posts) || posts.length === 0) {
+      return { statusCode: 200, body: JSON.stringify({ skipped: true, reason: 'no posts' }) }
+    }
 
-  // Find the post with the highest id.
-  const newestPost = posts.reduce((max, post) =>
-    Number(post.id) > Number(max.id) ? post : max
-  )
-  const newestId = Number(newestPost.id)
+    // Find the post with the highest id.
+    const newestPost = posts.reduce((max, post) =>
+      Number(post.id) > Number(max.id) ? post : max
+    )
+    const newestId = Number(newestPost.id)
+    const broadcastName = `newsletter-post-${newestId}`
 
-  const store = getStore('newsletter-state')
-  const storedRaw = await store.get('last-sent-post-id')
-  const lastSentId = storedRaw ? Number(storedRaw) : 0
+    // Use Resend as the source of truth — check whether this post was already sent.
+    const listResp = await resend.broadcasts.list()
+    const broadcasts = listResp?.data?.data || listResp?.data || []
+    const alreadySent = Array.isArray(broadcasts)
+      && broadcasts.some((b) => b?.name === broadcastName)
 
-  if (!(newestId > lastSentId)) {
-    return { statusCode: 200, body: JSON.stringify({ skipped: true, reason: 'no new post' }) }
-  }
+    if (alreadySent) {
+      return { statusCode: 200, body: JSON.stringify({ skipped: true, reason: 'already sent' }) }
+    }
 
-  const html = buildEmailHtml(newestPost)
+    const html = buildEmailHtml(newestPost)
 
-  try {
     await resend.broadcasts.create({
       audienceId: process.env.RESEND_AUDIENCE_ID,
       from: process.env.NEWSLETTER_FROM_EMAIL,
       subject: newestPost.title,
       html,
-      name: `Auto - ${newestPost.title}`,
+      name: broadcastName,
       send: true,
     })
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ success: true, sentPostId: newestId, title: newestPost.title }),
+    }
   } catch (err) {
     console.error(err)
     return { statusCode: 500, body: JSON.stringify({ error: 'Failed to send broadcast' }) }
-  }
-
-  await store.set('last-sent-post-id', String(newestId))
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ success: true, sentPostId: newestId, title: newestPost.title }),
   }
 }
