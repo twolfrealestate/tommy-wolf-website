@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type FormEvent } from 'react'
 import FadeSection from '../components/FadeSection'
 
 const ANCHOR_LINKS = [
@@ -151,6 +151,195 @@ function SystemCard({ name, desc, dark = false }: { name: string; desc: string; 
         {desc}
       </p>
     </div>
+  )
+}
+
+/* ─── Reusable inline lead form ─────────────────────────────── */
+/* Replaces the old mailto: CTAs. Click the trigger to expand the
+   form in place; on submit it POSTs to the send-lead Netlify
+   function. Nothing is written to localStorage. */
+function LeadForm({
+  defaultMessage,
+  triggerLabel,
+  dark = false,
+  triggerVariant = 'button',
+}: {
+  defaultMessage: string
+  triggerLabel: string
+  dark?: boolean
+  triggerVariant?: 'button' | 'link'
+}) {
+  const [open, setOpen] = useState(false)
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState(defaultMessage)
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
+
+  async function handleSubmit(e: FormEvent) {
+    e.preventDefault()
+    if (status === 'submitting') return
+    setStatus('submitting')
+
+    const trimmed = name.trim()
+    const gap = trimmed.indexOf(' ')
+    const firstName = gap === -1 ? trimmed : trimmed.slice(0, gap)
+    const lastName = gap === -1 ? '' : trimmed.slice(gap + 1).trim()
+
+    try {
+      const res = await fetch('/.netlify/functions/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'Recruiting - AI Realtor Page',
+          firstName,
+          lastName,
+          email: email.trim(),
+          message: message.trim(),
+        }),
+      })
+      if (!res.ok) throw new Error('Request failed')
+      setStatus('success')
+    } catch {
+      setStatus('error')
+    }
+  }
+
+  const inputClass = dark ? 'form-input--dark' : 'form-input'
+
+  /* Trigger */
+  if (!open) {
+    if (triggerVariant === 'link') {
+      return (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          style={{
+            fontFamily: 'var(--font-sans)',
+            fontSize: '13px',
+            color: dark ? 'rgba(255,255,255,0.45)' : 'var(--color-text-mid)',
+            background: 'none',
+            border: 'none',
+            padding: 0,
+            cursor: 'pointer',
+            textDecoration: 'underline',
+            textUnderlineOffset: '3px',
+            transition: 'color 0.2s',
+          }}
+          onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-accent)')}
+          onMouseLeave={e =>
+            (e.currentTarget.style.color = dark ? 'rgba(255,255,255,0.45)' : 'var(--color-text-mid)')
+          }
+        >
+          {triggerLabel}
+        </button>
+      )
+    }
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="btn-gold"
+        style={{ fontSize: '13px', padding: '16px 32px', letterSpacing: '0.1em' }}
+      >
+        {triggerLabel}
+      </button>
+    )
+  }
+
+  /* Success confirmation */
+  if (status === 'success') {
+    return (
+      <p
+        style={{
+          fontFamily: 'var(--font-serif)',
+          fontStyle: 'italic',
+          fontSize: '20px',
+          color: 'var(--color-accent)',
+          lineHeight: 1.5,
+          margin: 0,
+        }}
+      >
+        Thanks — I'll be in touch shortly.
+      </p>
+    )
+  }
+
+  /* Form */
+  return (
+    <form
+      onSubmit={handleSubmit}
+      style={{
+        maxWidth: '460px',
+        margin: '0 auto',
+        textAlign: 'left',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '18px',
+      }}
+    >
+      <div>
+        <label className="form-label" htmlFor="lead-name">Name</label>
+        <input
+          id="lead-name"
+          className={inputClass}
+          type="text"
+          value={name}
+          onChange={e => setName(e.target.value)}
+          required
+          autoComplete="name"
+        />
+      </div>
+      <div>
+        <label className="form-label" htmlFor="lead-email">Email</label>
+        <input
+          id="lead-email"
+          className={inputClass}
+          type="email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          required
+          autoComplete="email"
+        />
+      </div>
+      <div>
+        <label className="form-label" htmlFor="lead-message">Message (optional)</label>
+        <textarea
+          id="lead-message"
+          className={inputClass}
+          value={message}
+          onChange={e => setMessage(e.target.value)}
+          rows={4}
+          style={{ resize: 'vertical', lineHeight: 1.6 }}
+        />
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+        <button
+          type="submit"
+          className="btn-gold"
+          disabled={status === 'submitting'}
+          style={{
+            fontSize: '13px',
+            padding: '16px 32px',
+            letterSpacing: '0.1em',
+            opacity: status === 'submitting' ? 0.6 : 1,
+            cursor: status === 'submitting' ? 'default' : 'pointer',
+          }}
+        >
+          {status === 'submitting' ? 'Sending…' : 'Send'}
+        </button>
+        {status === 'error' && (
+          <span
+            style={{
+              fontFamily: 'var(--font-sans)',
+              fontSize: '13px',
+              color: '#e06b5a',
+            }}
+          >
+            Something went wrong. Please try again or call (801) 580-0647.
+          </span>
+        )}
+      </div>
+    </form>
   )
 }
 
@@ -356,13 +545,10 @@ export default function AIRealtor() {
             system. There's no pitch, no follow-up obligation, and no mention of eXp unless you ask.
           </p>
           <div className="fade-up">
-            <a
-              href="mailto:twolfrealestate@gmail.com?subject=Social Media System Setup"
-              className="btn-gold"
-              style={{ fontSize: '13px', padding: '16px 32px', letterSpacing: '0.1em', display: 'inline-block' }}
-            >
-              Request a Setup Session
-            </a>
+            <LeadForm
+              triggerLabel="Request a Setup Session"
+              defaultMessage="I'd like to set up the Social Media System in my Claude account. Please reach out to schedule a Zoom walkthrough."
+            />
           </div>
           <p
             className="fade-up"
@@ -988,16 +1174,16 @@ export default function AIRealtor() {
             >
               801-580-0647
             </a>
-            {' | '}
-            <a
-              href="mailto:twolfrealestate@gmail.com"
-              style={{ color: 'rgba(255,255,255,0.45)', textDecoration: 'none' }}
-              onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-accent)')}
-              onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.45)')}
-            >
-              twolfrealestate@gmail.com
-            </a>
           </p>
+
+          <div className="fade-up" style={{ marginTop: '20px' }}>
+            <LeadForm
+              dark
+              triggerVariant="link"
+              triggerLabel="Prefer email? Send me a message"
+              defaultMessage="I'd like to see the AI Realtor system in action. Please get in touch to schedule a walkthrough."
+            />
+          </div>
         </div>
       </FadeSection>
 
