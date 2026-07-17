@@ -33,6 +33,17 @@ export default function DaybreakNewsletter() {
     if (!email.trim() || !validateEmail(email)) return
     // TODO: POST to Follow Up Boss with "Newsletter Subscriber" tag
     saveLead({ firstName, email, role, source: 'newsletter-subscribe', isNewsletter: true })
+    void (async () => {
+      try {
+        await fetch('/.netlify/functions/subscribe-newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, firstName, source: 'Newsletter Page' }),
+        })
+      } catch (err) {
+        console.error(err)
+      }
+    })()
     setSubscribed(true)
   }
 

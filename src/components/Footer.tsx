@@ -85,6 +85,17 @@ export default function Footer() {
     e.preventDefault()
     if (!email.trim()) return
     saveLead({ email, source: 'footer-newsletter', isNewsletter: true })
+    void (async () => {
+      try {
+        await fetch('/.netlify/functions/subscribe-newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, source: 'Footer Signup' }),
+        })
+      } catch (err) {
+        console.error(err)
+      }
+    })()
     setSubscribed(true)
     setEmail('')
   }

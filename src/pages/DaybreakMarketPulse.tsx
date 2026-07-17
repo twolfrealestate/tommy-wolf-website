@@ -149,6 +149,17 @@ export default function DaybreakMarketPulse() {
     ev.preventDefault()
     if (!subEmail.trim() || !validateEmail(subEmail)) return
     saveLead({ email: subEmail, source: 'market-pulse-subscribe', isNewsletter: true })
+    void (async () => {
+      try {
+        await fetch('/.netlify/functions/subscribe-newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: subEmail, source: 'Market Pulse Signup' }),
+        })
+      } catch (err) {
+        console.error(err)
+      }
+    })()
     setSubDone(true)
   }
 
