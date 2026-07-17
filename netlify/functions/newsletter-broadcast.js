@@ -80,8 +80,11 @@ export const handler = async (event) => {
     const broadcastName = `newsletter-post-${newestId}`
 
     // Use Resend as the source of truth — check whether this post was already sent.
-    const listResp = await resend.broadcasts.list()
-    const broadcasts = listResp?.data?.data || listResp?.data || []
+    const { data: listData, error: listError } = await resend.broadcasts.list()
+    if (listError) {
+      throw new Error('Broadcast list failed: ' + JSON.stringify(listError))
+    }
+    const broadcasts = listData?.data || listData || []
     const alreadySent = Array.isArray(broadcasts)
       && broadcasts.some((b) => b?.name === broadcastName)
 
@@ -91,16 +94,22 @@ export const handler = async (event) => {
 
     const html = buildEmailHtml(newestPost)
 
-    const createResp = await resend.broadcasts.create({
+    const { data: createData, error: createError } = await resend.broadcasts.create({
       audienceId: process.env.RESEND_AUDIENCE_ID,
       from: process.env.NEWSLETTER_FROM_EMAIL,
       subject: newestPost.title,
       html,
       name: broadcastName,
     })
+    if (createError) {
+      throw new Error('Broadcast create failed: ' + JSON.stringify(createError))
+    }
 
-    const broadcastId = createResp?.data?.id
-    await resend.broadcasts.send(broadcastId)
+    const broadcastId = createData.id
+    const { data: sendData, error: sendError } = await resend.broadcasts.send(broadcastId)
+    if (sendError) {
+      throw new Error('Broadcast send failed: ' + JSON.stringify(sendError))
+    }
 
     return {
       statusCode: 200,
