@@ -57,6 +57,24 @@ export default function ServiceAreaPage({ config }: { config: ServiceAreaConfig 
     if (Object.keys(e).length) { setErrors(e); return }
     // TODO: POST to Follow Up Boss API
     saveLead({ ...form, source: config.formSource })
+    // Fire-and-forget send to Netlify function; localStorage already succeeded, so do not block the UI or surface errors
+    try {
+      fetch('/.netlify/functions/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: config.formSource,
+          type: 'Buyer',
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          phone: form.phone,
+          message: form.message,
+        }),
+      }).catch(err => console.error('send-lead failed', err))
+    } catch (err) {
+      console.error('send-lead failed', err)
+    }
     setSubmitted(true)
   }
 

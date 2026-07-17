@@ -34,6 +34,24 @@ export default function Herriman() {
     if (Object.keys(e).length) { setErrors(e); return }
     saveLead({ ...form, leadSource: 'Herriman Service Area Page' })
     // TODO: Pass leadSource to Follow Up Boss when FUB is connected
+    // Fire-and-forget send to Netlify function; localStorage already succeeded, so do not block the UI or surface errors
+    try {
+      fetch('/.netlify/functions/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'Herriman Service Area Page',
+          type: 'Buyer',
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          phone: form.phone,
+          message: form.message,
+        }),
+      }).catch(err => console.error('send-lead failed', err))
+    } catch (err) {
+      console.error('send-lead failed', err)
+    }
     setSubmitted(true)
   }
 

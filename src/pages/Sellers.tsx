@@ -157,6 +157,25 @@ export default function Sellers() {
     if (Object.keys(e).length) { setErrors(e); return }
     // TODO: POST to Follow Up Boss API
     saveLead({ ...form, source: 'sellers-form' })
+    // Fire-and-forget send to Netlify function; localStorage already succeeded, so do not block the UI or surface errors
+    try {
+      fetch('/.netlify/functions/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'Website - Sellers Page',
+          type: 'Seller',
+          firstName: form.firstName,
+          lastName: form.lastName,
+          email: form.email,
+          phone: form.phone,
+          address: form.address,
+          message: form.message,
+        }),
+      }).catch(err => console.error('send-lead failed', err))
+    } catch (err) {
+      console.error('send-lead failed', err)
+    }
     setSubmitted(true)
   }
 
