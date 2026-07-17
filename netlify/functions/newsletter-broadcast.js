@@ -91,14 +91,16 @@ export const handler = async (event) => {
 
     const html = buildEmailHtml(newestPost)
 
-    await resend.broadcasts.create({
+    const createResp = await resend.broadcasts.create({
       audienceId: process.env.RESEND_AUDIENCE_ID,
       from: process.env.NEWSLETTER_FROM_EMAIL,
       subject: newestPost.title,
       html,
       name: broadcastName,
-      send: true,
     })
+
+    const broadcastId = createResp?.data?.id
+    await resend.broadcasts.send(broadcastId)
 
     return {
       statusCode: 200,
