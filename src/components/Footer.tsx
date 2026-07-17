@@ -128,7 +128,7 @@ export default function Footer() {
             {/* Contact */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {[
-                { icon: '✉', text: 'twolfrealestate@gmail.com', href: 'mailto:twolfrealestate@gmail.com' },
+                { icon: '✉', text: 'twolfrealestate@gmail.com', href: '/contact' },
                 { icon: '📞', text: '(801) 580-0647',           href: 'tel:+18015800647' },
                 { icon: '📍', text: 'South Jordan, UT',       href: undefined },
               ].map(({ icon, text, href }) => (

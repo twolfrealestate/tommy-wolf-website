@@ -48,7 +48,7 @@ const bodies: Record<string, string> = {
     <div class="cta-block">
       <h3>Thinking About Buying or Selling Near the New TRAX Stop?</h3>
       <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly — no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
-      <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+      <a href="/contact" class="cta-button">Email Tommy</a>
     </div>
   `,
   'hoa-fee-changes-2026-daybreak': `
@@ -91,7 +91,7 @@ const bodies: Record<string, string> = {
     <div class="cta-block">
       <h3>Ready to Make Your Move in Daybreak?</h3>
       <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly — no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
-      <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+      <a href="/contact" class="cta-button">Email Tommy</a>
     </div>
   `,
   'daybreak-schools-home-values': `
@@ -117,7 +117,7 @@ const bodies: Record<string, string> = {
     <div class="cta-block">
       <h3>Have Questions About Schools and Home Values in Daybreak?</h3>
       <p>Whether you're weighing school boundaries before buying or want to know how to talk about schools when listing your home, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
-      <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+      <a href="/contact" class="cta-button">Email Tommy</a>
     </div>
   `,
   'is-it-a-good-time-to-sell-in-daybreak-2026': `<p>I get some version of this question almost every week: is it a good time to sell in Daybreak? The honest answer depends on what you own. Daybreak home values have held up well this year, but single family homes, townhomes, and new construction are each telling a different story right now. Here's what the numbers actually show.</p>
@@ -155,7 +155,7 @@ const bodies: Record<string, string> = {
 <div class="cta-block">
   <h3>Wondering What Your Daybreak Home Is Worth Right Now?</h3>
   <p>Every property and price point in Daybreak is moving a little differently this year. Reach out directly and I'll walk you through exactly where your home stands, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
-  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+  <a href="/contact" class="cta-button">Email Tommy</a>
 </div>`,
   'pricing-daybreak-home-right-2026': `<p>Is it a good time to sell in Daybreak? The honest answer is yes, if you price it correctly from day one. I'm seeing a pattern play out across Daybreak right now: homes priced to match where the market actually sits are moving in a matter of weeks, while homes priced on hope sit for months and end up chasing the market down with price cuts. Daybreak home values haven't collapsed and they haven't spiked either. They've settled into a range, and that range is exactly what a seller needs to understand before putting a sign in the yard.</p>
 
@@ -177,7 +177,7 @@ const bodies: Record<string, string> = {
 <div class="cta-block">
   <h3>Not Sure What Your Daybreak Home Is Worth Right Now?</h3>
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
-  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+  <a href="/contact" class="cta-button">Email Tommy</a>
 </div>`,
 }
 
