@@ -26,15 +26,6 @@ function InstagramIcon() {
     </svg>
   )
 }
-function LinkedInIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect x="2" y="9" width="4" height="12" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  )
-}
 function YouTubeIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -146,10 +137,9 @@ export default function Footer() {
 
             {/* Social icons */}
             <div style={{ display: 'flex', gap: '16px' }}>
-              <SocialBtn href="https://facebook.com"><FacebookIcon /></SocialBtn>
-              <SocialBtn href="https://instagram.com"><InstagramIcon /></SocialBtn>
-              <SocialBtn href="https://linkedin.com"><LinkedInIcon /></SocialBtn>
-              <SocialBtn href="https://youtube.com"><YouTubeIcon /></SocialBtn>
+              <SocialBtn href="https://www.facebook.com/tommywolfrealestate/"><FacebookIcon /></SocialBtn>
+              <SocialBtn href="https://www.instagram.com/movetodaybreak/?hl=en"><InstagramIcon /></SocialBtn>
+              <SocialBtn href="https://www.youtube.com/@movetodaybreak"><YouTubeIcon /></SocialBtn>
             </div>
 
             {/* Newsletter micro-signup */}
