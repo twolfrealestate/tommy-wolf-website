@@ -179,6 +179,29 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="/contact" class="cta-button">Email Tommy</a>
 </div>`,
+  'selling-daybreak-townhome-vs-single-family': `<p>Daybreak has more townhomes on the market right now than most buyers expect. Between the alley-loaded rows near SoDa Row and the newer phases closer to Oquirrh Lake, townhomes make up a large share of what's actually selling in this community. A lot of sellers list their townhome using the same playbook they'd use for a single-family home, and it costs them time on market or money at the closing table. If you're weighing whether to sell my home in Daybreak this year and it happens to be a townhome, the process runs on a few different rules.</p>
+
+<h2>📋 The HOA Package Does More Work Than You Think</h2>
+<p>Single-family sellers in Daybreak deal with one HOA, the master association that covers common areas, the lake, and the trail system. Townhome sellers often deal with two: the master HOA plus a sub-association for their specific row or building.</p>
+<p>That sub-HOA usually covers exterior maintenance, roofs, and sometimes landscaping, and buyers will read the CC&Rs closely before they write an offer. Daybreak's median HOA fee runs around $295 a month, but townhome sub-associations can sit higher depending on what's covered. Have your HOA documents, reserve study, and any special assessment history ready before you list. Buyers and their lenders will ask for this, and a delay here stalls closings more often than almost anything else in a townhome sale.</p>
+<p>If your community allows rentals, know the cap. Investors make up a real part of the buyer pool for Daybreak townhomes for sale, and a rental restriction that's already near its limit can quietly narrow your buyer pool without you realizing it.</p>
+<p>It's also worth calling the HOA management company before you list, not after an offer comes in. Ask for a payoff letter, a copy of the current budget, and confirmation of any pending litigation or upcoming assessments. Buyers' agents in Daybreak know to ask for these documents up front, and having them ready signals a clean transaction before a buyer ever walks through the door.</p>
+
+<h2>📊 Appraisals and Comps Work Differently</h2>
+<p>An appraiser pulling comps for your townhome is going to compare it against other townhomes, not the single-family homes down the street, even if they're the same square footage. In a neighborhood with a smaller pool of matching product, that can mean the appraiser reaches further back in time or further across the community to find three solid comps.</p>
+<p>Right now, Daybreak townhomes are listing at a median price around $481,000, compared to roughly $567,000 to $574,000 for single-family homes in the same community. Price per square foot tells a more useful story than total price here. Across Daybreak overall, homes are trading in the $237 to $253 per square foot range, and townhomes often land at the higher end of that band because of their smaller footprint and shared-wall efficiency.</p>
+<p>If financing questions come up from buyers using FHA or VA loans, know that attached properties sometimes require project-level approval before those loans can close. Ask your lender or title company to confirm your community's status early, not after you're under contract.</p>
+
+<h2>🔑 Your Buyer Pool Looks Different Too</h2>
+<p>Single-family buyers in Daybreak tend to be families trading up, often moving from a townhome or from outside the community entirely. Townhome buyers are a different mix: first-time buyers priced out of single-family, downsizers who want low maintenance without leaving Daybreak, and investors watching rental caps and cash flow.</p>
+<p>That changes how you market and price. A first-time buyer is often more sensitive to monthly payment than sticker price, so a clean breakdown of HOA dues, taxes, and estimated mortgage payment in your listing can move a fence-sitter to schedule a showing. A downsizer wants to know what maintenance the HOA actually handles versus what falls to them.</p>
+<p>Across South Jordan, homes are averaging around 45 to 60 days on market right now, and Daybreak's numbers track close to that range. Well-priced, well-documented townhomes are still moving at a similar pace to single-family listings. The properties that sit are usually the ones where HOA paperwork wasn't ready or the price didn't reflect the townhome comps, not the single-family ones down the street.</p>
+
+<div class="cta-block">
+  <h3>Thinking About Selling Your Daybreak Townhome?</h3>
+  <p>Whether you're weighing HOA paperwork, wondering what your townhome is actually worth compared to single-family sales nearby, or just want a straight answer on timing, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
