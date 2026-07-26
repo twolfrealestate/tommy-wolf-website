@@ -202,6 +202,36 @@ const bodies: Record<string, string> = {
   <p>Whether you're weighing HOA paperwork, wondering what your townhome is actually worth compared to single-family sales nearby, or just want a straight answer on timing, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-neighborhood-guide-12-villages': `
+<p>Daybreak isn't one neighborhood, it's twelve. Each village inside this South Jordan community has its own price range, school situation, and daily rhythm, and picking the right one matters just as much as picking the right house. I live in Garden Park and work every corner of Daybreak, Utah real estate day in and day out, so here's an honest, resident's-eye breakdown of all twelve villages, grouped by what actually separates them: lake access, school proximity, and price point.</p>
+
+<h2>🌊 Lakeside and Lifestyle Villages</h2>
+<p>These four villages sit closest to Oquirrh Lake and SoDa Row, and they carry the highest walkability and nightlife scores in the community. If evening walks, dining, and lake access matter most to you, start your search here.</p>
+<p><strong>Eastlake Village</strong> has been Daybreak's premier address since 2006, priced $450K to $1.1 million. Eastlake Elementary outperforms both the district and the state on test scores, and residents walk to SoDa Row, the lake trail, and Eastlake Commons with its pool, tennis courts, and skate park.</p>
+<p><strong>Lake Village</strong> runs along the shoreline, with waterfront and near-waterfront homes starting near $1 million. Lake trail access sits right off the back door for some homes, though condos and townhomes carry higher HOA fees, $350 to $500 a month, for exterior maintenance and lakefront upkeep.</p>
+<p><strong>SoDa Row</strong> is the most walkable spot in all of Daybreak, urban-style attached homes and townhomes priced $350K to $600K, steps from restaurants, boutiques, and the Beach Club.</p>
+<p><strong>North Shore Village</strong> opened in 2008 with the most diverse price mix around, townhomes in the $300s alongside single-family homes in the $600K to $800K range, anchored by a Harmons grocery store and strong access to Eastlake Elementary.</p>
+
+<h2>🏘️ Family-Focused and Established Villages</h2>
+<p>This group blends Daybreak's original streets with newer, growing pockets, all built around walkability and school access. It's where most Daybreak families end up settling, and it's also where the community's next school investments are landing.</p>
+<p><strong>Founder's Park Village</strong> is the original 2004 neighborhood and still the most walkable in Daybreak, built on the founding five-minute rule. Homes run $450K to $950K, and Daybreak Elementary sits right inside the village alongside the Daybreak Community Center.</p>
+<p><strong>Creekside Village</strong>, opened in 2013, prices $475K to $900K and centers on Brookside Park's pool, zip line, and creek trail. A site has already been purchased here for Daybreak's first middle school.</p>
+<p><strong>South Station Village</strong>, from 2012, runs $425K to $850K with direct TRAX light rail access and Early Light Academy, a K-9 charter school, located right in the village.</p>
+<p><strong>Cascade Village</strong> is Daybreak's newest neighborhood, opened in 2021 with townhomes from $410K and single-family homes from the mid-$500s to $800K. Schools are still catching up here, a new elementary is planned, but for now kids are bused or driven to Daybreak or Eastlake Elementary.</p>
+
+<h2>⛰️ Premium and 55-Plus Villages</h2>
+<p>The final group covers Daybreak's highest price points and its two age-restricted communities, from mountain-view estates to maintenance-free 55-plus living.</p>
+<p><strong>Heights Park Village</strong> opened in 2017 west of Mountain View Corridor, priced $500K to $1 million, built around The Loop, a signature trail and park system with some elevated mountain-view lots.</p>
+<p><strong>Highland Heights Village</strong> is the most prestigious address in Daybreak, $700K to $1.5 million-plus on quarter to half-acre lots with sweeping mountain views. It's the farthest village from SoDa Row, but single-family homes here only pay the master HOA fee, no sub-association overhead.</p>
+<p><strong>Garden Park</strong> is Daybreak's first 55-plus community and where I personally live, built by Ivory Homes with an average price around $412,763. It's the safest pocket in Daybreak and walkable to both SoDa Row and the TRAX line, with a private clubhouse rivaling a resort.</p>
+<p><strong>Springhouse Park Village</strong> is Daybreak's second 55-plus community, west of Bangerter Highway, priced $350K to $600K, with its own 10,000-square-foot community center and pool separate from the master amenities.</p>
+
+<div class="cta-block">
+  <h3>Not Sure Which Daybreak Village Fits You?</h3>
+  <p>Every village in Daybreak has a different personality, and the right fit depends on your budget, your school priorities, and how you want to spend your evenings. I live here, I sell here, and I can help you figure out which part of Daybreak actually works for your life. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>
+`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
