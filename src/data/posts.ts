@@ -232,6 +232,32 @@ const bodies: Record<string, string> = {
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>
 `,
+  'downtown-daybreak-new-restaurants-businesses': `
+<p>Downtown Daybreak is starting to feel like an actual downtown. Two years ago the area around The Ballpark at America First Square was mostly dirt and renderings. Now you can grab a burger, watch a movie, and eat ice cream on the same block, all within walking distance of home if you live nearby. This is exactly the kind of momentum that makes moving to Daybreak Utah feel less like a bet on the future and more like buying into something already happening.</p>
+<p>I get a version of the same question almost every week from buyers touring the area. Is Daybreak a good place to live if you want more than just a quiet neighborhood? The answer used to come with an asterisk about what was still coming. That asterisk is starting to disappear. The businesses opening around the ballpark are real, operating, and pulling people in from outside Daybreak, which is exactly what a district like this is supposed to do.</p>
+
+<h2>🍔 The Restaurants Already Open</h2>
+<p>The food scene around the ballpark filled in fast. Hires Big H opened its Daybreak location on Grandville Avenue, bringing the same drive-in style burgers and root beer the chain has served in Utah for decades. A few blocks over on Center Field Drive, Nomad Eatery serves contemporary comfort food, and Rockwell Ice Cream Company shares that same address for dessert afterward.</p>
+<p>Moena Café has become a regular breakfast stop for people who want Hawaiian-inspired plates before a Bees game or a morning walk. And the name generating the most buzz is Taste of Red Iguana, a satellite location from one of Salt Lake's most well known Mexican restaurants. Getting a name with that kind of reputation to open west of the valley says something about how much confidence local restaurant groups have in this district long term.</p>
+<p>For a neighborhood built around Daybreak amenities like the ballpark and Oquirrh Lake, having a restaurant lineup this strong within walking distance is a real draw for buyers touring the area. It is one thing to describe a neighborhood as walkable on paper. It is another to actually walk from a townhome to dinner and back, which is now possible for residents living closest to the district.</p>
+
+<h2>🎬 Entertainment Anchors Taking Shape</h2>
+<p>Restaurants were just the first wave. The Megaplex Entertainment Center is bringing luxury movie auditoriums, interactive bowling, and arcade gaming to the district, giving Downtown Daybreak an anchor that keeps people around after dinner instead of just passing through. Naraya by Sawadee Thai and Jolley's Corner are next in the active retail lineup, rounding out the food and convenience options within the core blocks.</p>
+<p>What stands out about this stretch of Daybreak is how compact it is. You can park once, catch a Bees game, eat dinner, and grab dessert without moving your car. That kind of walkable, self-contained layout is rare in South Jordan, and it is a big part of what people mean when they ask what the Daybreak community is like day to day.</p>
+<p>Entertainment anchors matter more than people expect when they are comparing neighborhoods. A movie theater or a bowling alley does not sell a home by itself, but it changes how a buyer pictures a random Tuesday night. When someone can picture their actual life happening inside a neighborhood, they move from browsing listings to making an offer.</p>
+
+<h2>🏗️ What's Coming Next</h2>
+<p>The next phase is where things get interesting for anyone thinking about Daybreak home values. The Pennant, a 190-unit mixed-use residential and retail building, is set to open in fall 2026 and will put more rooftops right on top of the retail corridor. A newly permitted Trader Joe's is headed to Grandville Avenue, which is the kind of grocery anchor that tends to move the needle on nearby home prices once it opens.</p>
+<p>Beyond that, Phase 2 is bringing townhome blocks with ground-floor live and work retail units along Center Field Drive. That mix of residential and commercial space is intentional. It is meant to keep Downtown Daybreak active outside of game days, and it gives buyers looking at Daybreak townhomes for sale another reason to consider this specific corner of the community over other options in South Jordan.</p>
+<p>None of this happened by accident. Miller Sports and Entertainment has been building this district in phases since the ballpark itself opened, and each new business that signs on adds to the case for Daybreak Utah real estate as a long-term hold, not just a nice place to visit on a Friday night.</p>
+<p>If you are watching home prices in Daybreak Utah and trying to figure out how much of this growth is already priced in, the honest answer is some of it, not all of it. A grocery anchor like Trader Joe's and 190 new units of rooftops from The Pennant have not fully landed yet. Buyers who get in ahead of those openings are usually the ones who look back in a couple of years glad they did not wait.</p>
+
+<div class="cta-block">
+  <h3>Ready to Make Your Move Near Downtown Daybreak?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>
+`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
