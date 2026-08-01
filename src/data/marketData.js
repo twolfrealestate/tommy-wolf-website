@@ -50,6 +50,13 @@ const marketData = {
       "totalSold": 39,
       "listToSaleRatio": 99.7,
       "pricePerSqFt": 230
+    },
+    {
+      "period": "Jul 2026",
+      "medianPrice": 749900,
+      "medianDOM": 56,
+      "totalSold": 39,
+      "listToSaleRatio": 99
     }
   ],
   "Townhome": [
@@ -100,6 +107,13 @@ const marketData = {
       "totalSold": 32,
       "listToSaleRatio": 100,
       "pricePerSqFt": 244
+    },
+    {
+      "period": "Jul 2026",
+      "medianPrice": 449990,
+      "medianDOM": 70,
+      "totalSold": 29,
+      "listToSaleRatio": 99
     }
   ],
   "All": [
@@ -150,8 +164,15 @@ const marketData = {
       "totalSold": 71,
       "listToSaleRatio": 100,
       "pricePerSqFt": 240
+    },
+    {
+      "period": "Jul 2026",
+      "medianPrice": 597000,
+      "medianDOM": 63,
+      "totalSold": 68,
+      "listToSaleRatio": 99
     }
   ]
 }
-export const lastUpdated = 'Jun 2026';
+export const lastUpdated = 'Jul 2026';
 export default marketData
