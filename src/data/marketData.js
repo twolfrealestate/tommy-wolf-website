@@ -56,7 +56,8 @@ const marketData = {
       "medianPrice": 749900,
       "medianDOM": 56,
       "totalSold": 39,
-      "listToSaleRatio": 99
+      "listToSaleRatio": 99,
+      "pricePerSqFt": 228
     }
   ],
   "Townhome": [
@@ -113,7 +114,8 @@ const marketData = {
       "medianPrice": 449990,
       "medianDOM": 70,
       "totalSold": 29,
-      "listToSaleRatio": 99
+      "listToSaleRatio": 99,
+      "pricePerSqFt": 253
     }
   ],
   "All": [
@@ -170,7 +172,8 @@ const marketData = {
       "medianPrice": 597000,
       "medianDOM": 63,
       "totalSold": 68,
-      "listToSaleRatio": 99
+      "listToSaleRatio": 99,
+      "pricePerSqFt": 240
     }
   ]
 }
