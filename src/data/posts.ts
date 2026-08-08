@@ -258,6 +258,43 @@ const bodies: Record<string, string> = {
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>
 `,
+  'daybreak-housing-market-update-july-2026': `<p>July's closings are in, and the Daybreak housing market gave us one of the clearest datasets we've had all year. Sixty-eight homes sold across the community last month, split between 39 single-family homes and 29 townhomes and condos. The headline numbers look steady. The story underneath them is about pricing accuracy, and it is worth understanding before you list or write an offer.</p>
+
+<h2>🏡 Single-Family Homes: Median $749,900, and a Very Wide Spread</h2>
+
+<p>Thirty-nine detached homes closed in Daybreak in July. The median sold price landed at <strong>$749,900</strong>, with an average of $882,836. That gap between median and average is normal here, and it comes from the top of the market. Two homes closed at $2,080,000 last month, including a lakefront property on Lake Island Drive that traded at $463 per square foot. At the other end, a small-footprint home on Sparrow View Drive closed at $425,260.</p>
+
+<p>Price per square foot averaged $247 across all 39 sales, with a median of $228. That spread reflects the range of product in Daybreak, from compact cottage-style homes near the parks to larger estate homes with lake proximity.</p>
+
+<p>The list-to-sale ratio came in at <strong>99.1%</strong>. Twenty-two of the 39 homes sold at or above asking price. Seventeen sold below, and those sellers gave up an average of $23,555 off their list price.</p>
+
+<p>Now the number that actually matters. Days on market averaged 71, but the median was 56, and the full range ran from 3 days to 312 days. That is not a market with one speed. Homes that sold within 30 days averaged 99.8% of list price. Homes that sat 90 days or longer still closed near list, but only after price adjustments along the way. The fastest sales last month included a home on Belleville Way that closed in 4 days at 102.6% of list, and a $1,150,000 property on Lamond Drive that also went in 4 days at full price.</p>
+
+<h2>🏘️ Townhomes and Condos: The Entry Point Holds Near $450,000</h2>
+
+<p>Twenty-nine attached homes closed, 26 townhomes and 3 condos. Daybreak townhomes for sale continue to serve as the affordability entry point into the community, and July's data backs that up. The townhome median sold price was <strong>$449,995</strong>, with sales ranging from $375,000 on Topcrest Drive up to $689,605 on Lake Run Road.</p>
+
+<p>Townhome price per square foot averaged $254, which is actually higher than the single-family median of $228. That surprises people. Attached homes carry a premium per foot because the footprints are smaller and the land cost gets spread across fewer square feet. The total price is lower. The cost per foot is not.</p>
+
+<p>List-to-sale ratio for townhomes was <strong>99.4%</strong>, slightly tighter than detached homes. Twelve of the 26 townhomes sold at exactly their list price, which points to a healthy share of builder inventory moving at set pricing rather than negotiated resale.</p>
+
+<p>Marketing time ran longer than detached. Townhomes averaged 79 days on market with a median of 64. One unit on Daybreak Rim Way closed after 422 days, which pulls the average up meaningfully. Sellers who did take less than asking gave up an average of $10,584, roughly half the dollar concession detached sellers made.</p>
+
+<p>Only three condos closed in July, at a median of $245,000. That is too small a sample to call a trend, so treat it as context rather than a benchmark.</p>
+
+<h2>📊 What July Means If You're Buying or Selling in Daybreak</h2>
+
+<p>For sellers, the first three weeks are your pricing test. A 99% list-to-sale ratio across the market sounds like sellers are holding firm, and many are. But that ratio hides the homes that quietly reduced twice before finding a buyer. If you are not getting showings in the first 14 days, the market is telling you something about your price, not your finish package. Price it correctly on day one and the Daybreak housing market will still reward you.</p>
+
+<p>For buyers, aged inventory is where your leverage lives. Ten single-family homes on last month's list had been on market 90 days or longer. Those sellers are motivated in a way that a fresh listing's seller is not. Watch days on market before you decide how to write your offer.</p>
+
+<p>For anyone weighing a townhome against a detached home, run the per-foot math rather than just the sticker price. A $450,000 townhome and a $750,000 single-family home in Daybreak are closer in value per square foot than the price tags suggest. What you are really buying is space, yard, and maintenance responsibility, and those trade-offs are personal.</p>
+
+<div class="cta-block">
+  <h3>Want to Know Where Your Daybreak Home Fits in These Numbers?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({

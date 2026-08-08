@@ -70,5 +70,14 @@
     "publishedDate": "2026-07-27",
     "tags": ["neighborhood-news", "daybreak-lifestyle", "local-news", "new-construction"],
     "excerpt": "Downtown Daybreak's business lineup near The Ballpark at America First Square is filling in fast, from Hires Big H and Taste of Red Iguana to a Megaplex theater. Here's what's already open, what's opening soon, and what it means for Daybreak home values."
+  },
+  {
+    "id": "10",
+    "title": "Daybreak Housing Market Update: July 2026 Sales Data",
+    "slug": "daybreak-housing-market-update-july-2026",
+    "metaDescription": "July 2026 Daybreak housing market update: 68 closed sales, median prices, days on market, and list-to-sale ratios. See what the data means for your move.",
+    "publishedDate": "2026-08-08",
+    "tags": ["market-update", "market-pulse", "seller-tips", "buyer-tips"],
+    "excerpt": "Sixty-eight homes closed in Daybreak in July 2026, and the numbers tell two very different stories depending on whether you're looking at detached or attached homes. Here's the full breakdown of the Daybreak housing market, with median prices, days on market, and what it means if you're buying or selling this fall."
   }
 ]
