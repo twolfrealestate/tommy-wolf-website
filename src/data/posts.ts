@@ -295,6 +295,30 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'first-time-buyer-guide-daybreak-utah': `<p>Buying a home in Daybreak for the first time is different from buying anywhere else in South Jordan. It's a planned community with its own pricing patterns, its own mix of new construction and resale, and its own HOA structure to understand before you fall in love with a floor plan. If you're weighing homes for sale in Daybreak Utah as a first-time buyer, here's what actually matters, from cost to loan programs to which neighborhood fits your life.</p>
+
+<h2>💰 What Homes Cost in Daybreak</h2>
+<p>Daybreak Utah real estate spans a wide range, and that's actually good news for first-time buyers. Townhomes and condos typically offer the most accessible entry point, with single-family homes stretching well beyond that depending on lot size, builder, and how close you are to Oquirrh Lake or SoDa Row. New construction phases price differently than resale homes in older sections like Eastlake or Highland Park, so two homes with the same square footage can carry very different price tags.</p>
+<p>Because pricing shifts phase by phase and month by month, I don't recommend anchoring to a number you saw online months ago. If you tell me your budget and must-haves, I can pull current listings and recent sales so you're working from real numbers instead of a stale search result.</p>
+
+<h2>🔑 Loan Options and Down Payment Help</h2>
+<p>Most first-time buyers ask the same question first: how much do I actually need saved. In Utah, you have more options than a standard 20% down payment. FHA loans allow down payments as low as 3.5%, and the FHA loan limit in Salt Lake County currently sits at $637,100, which covers most entry-level homes in Daybreak. Conventional loans go up to a conforming limit of $832,750 in this county before they're considered jumbo.</p>
+<p>The Utah Housing Corporation also runs first-time buyer programs worth knowing about. The FirstHome and Home Again loans offer below-market rates, and their down payment assistance programs can cover up to 6% of your loan amount as a second mortgage, which often means less cash out of pocket at closing. Most of these programs want a credit score of 620 or higher, with 660+ typically required for the down payment assistance itself. Veterans and active-duty service members can also access a $2,500 grant on top of standard VA loan benefits.</p>
+<p>Rates have been moving in a narrow band lately, with 30-year fixed mortgages hovering in the mid 6% range. That number changes week to week, so lock in a rate quote from a lender before you start touring instead of relying on a rate you read online.</p>
+
+<h2>🏘️ Picking the Right Neighborhood and Home Type</h2>
+<p>This is where a lot of first-time buyers get stuck, because Daybreak isn't one neighborhood, it's dozens of them, each with a different feel. If walkability and low maintenance matter most, Daybreak townhomes for sale near SoDa Row put you steps from restaurants and shops without a big yard to manage. If you want more space and a traditional single-family layout, neighborhoods further from the lake tend to offer larger lots at a lower price per square foot.</p>
+<p>Every part of Daybreak shares access to the same core amenities: Oquirrh Lake, the trail system, community pools, and neighborhood parks, all included in your HOA dues. If you have kids or are planning for them, Daybreak schools fall within the Canyons School District, which is worth researching by address since boundaries shift as the community grows. This is one of the reasons a Daybreak neighborhood guide only goes so far. Walking a few phases in person tells you more than any listing photo will.</p>
+
+<h2>📋 What to Expect From Offer to Closing</h2>
+<p>Once you find the right home, the process moves fast. You'll get pre-approved (do this before you tour, not after), submit an offer with your agent, and if it's accepted, move into inspection and appraisal within the first two weeks. New construction adds its own timeline since you may be buying a home that isn't built yet, with a builder contract and construction schedule instead of a standard resale closing.</p>
+<p>Closing itself typically takes 30 to 45 days from accepted offer for resale homes. Builders will give you a more specific window based on their current phase. Either way, having someone who knows the difference between a resale contract and a builder contract in Daybreak specifically saves you from surprises most first-time buyers don't see coming.</p>
+
+<div class="cta-block">
+  <h3>Ready to Make Your Move in Daybreak?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
