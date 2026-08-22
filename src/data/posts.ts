@@ -319,6 +319,54 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'what-600k-buys-in-daybreak-utah-fall-2026': `<p>If you're looking at homes for sale in Daybreak Utah this fall, $600,000 is the number that keeps showing up. Closed sales in the $550K to $650K range over the last four months put the median right at $604,990, which means this price point is where the bulk of Daybreak's market actually lives. What's interesting is how differently that same $600,000 spends depending on the village, the builder, and the decade the home was built in.</p>
+
+<h2>📊 The $600K Market Right Now</h2>
+<p>In the last 120 days, 73 homes in Daybreak closed between $550,000 and $650,000. The median close price landed at $604,990, with a median price per square foot of $227 and a median 49 days on market. That DOM means the typical home isn't flying off the market in a week, but it isn't sitting for months either.</p>
+<p>Offers tell a similar story. Looking at 107 closings in this band since late February, the median sale-to-list ratio came in at exactly 100%. About 23% closed over asking, with an average premium of 2.9%, and those over-asking deals moved fast, a median of 30 days on market. Meanwhile 44% closed under asking. That's a market where a well-priced, well-presented listing can still spark competition, while an overpriced or dated one sits and eventually gets negotiated down.</p>
+<p>Right now there are 74 active listings between $550K and $650K in the Daybreak ZIP code, and about a third of those, 25 homes, are Daybreak townhomes for sale or twin homes rather than detached single family. Zoom out to the full ZIP and supply sits at 3.7 months, technically a seller's market, but soft enough that plenty of buyers are negotiating and winning.</p>
+
+<h2>🏡 Archetype One: Maximum Square Footage</h2>
+<p>The easiest way to buy more house at $600K is to accept an older build year or a more basic finish level. A few examples currently on the market:</p>
+<ul>
+<li>6044 W 11800 S in Springhouse: 3,546 sqft, 2 beds, built 2024, listed at $610,000, $172 per sqft.</li>
+<li>11682 S Silver Pond Dr: 3,570 sqft, 3 beds, built 2023, listed at $639,900, $179 per sqft.</li>
+<li>11708 S Silver Pond Dr: 3,180 sqft, 5 beds/4 baths, built 2022, listed at $609,000 after a $41,000 cut from $650,000, $192 per sqft.</li>
+<li>4366 W Degray Dr: 3,290 sqft, 4 beds/4 baths, built 2007, listed at $614,900, $187 per sqft.</li>
+</ul>
+<p>These are the homes for buyers who want square footage above almost everything else: room to grow into, a finished basement, a bonus room. You're trading a bit of "new" for a lot of "big."</p>
+
+<h2>🏗️ Archetype Two: New Construction, Right in the Middle</h2>
+<p>This is where Daybreak new construction homes cluster at this price point: detached, 2,500 to 2,800 sqft, current finishes.</p>
+<ul>
+<li>11103 S Hazel Green Dr: 2,715 sqft, 3 beds, $604,990, $223 per sqft.</li>
+<li>11347 S Offshore Way, an Ivory Homes build: 2,724 sqft, 3 beds, $612,285, $225 per sqft.</li>
+<li>11424 S Glass Hill Dr #121: 2,495 sqft, 3 beds, $609,990, $244 per sqft.</li>
+<li>6814 W 11800 S, a Holmes Homes build: 2,842 sqft, 3 beds, $599,900, $211 per sqft.</li>
+</ul>
+<p>This is the middle ground most buyers land in. New enough that you're not planning a renovation, sized for a family without feeling like you're heating a warehouse.</p>
+
+<h2>📍 Archetype Three: Location Over Size</h2>
+<p>Then there's the group paying for where the home sits rather than how big it is: smaller floor plans closer to SoDa Row, Oquirrh Lake, or Downtown Daybreak.</p>
+<ul>
+<li>6594 W Gosling Dr #277: 1,706 sqft new-construction townhome, $599,990, $352 per sqft.</li>
+<li>6043 W Stone Mount Way: 1,861 sqft, 3 beds/3 baths, built 2023, $599,000, $322 per sqft.</li>
+<li>5051 W Digory Dr: 2,131 sqft, 4 beds/4 baths, built 2010, $599,000, $281 per sqft.</li>
+<li>5400 W Center Field #107, a Downtown Daybreak townhome: 2,295 sqft, $614,500, $268 per sqft.</li>
+</ul>
+<p>Same $600K, a fraction of the square footage, and more than double the price per square foot of the biggest homes on this list. That spread, $172 per sqft on one end and $352 on the other, is really the whole story of buying in Daybreak right now. You're not choosing a price. You're choosing which trade-off you're willing to make.</p>
+
+<h2>🔑 Where Buyers Have Leverage</h2>
+<p>None of this means you have to pay full price. At least 13 of the 74 active listings in this band have documented price cuts, likely a floor since not every list history is fully visible. 6764 W 11800 S has come down $66,000 from its original $715,000 list. 11708 S Silver Pond Dr, mentioned above, is down $41,000 from its original ask.</p>
+<p>Some builder inventory is sitting even longer. 7007 W Granbury Way has been on the market roughly 600 days, and 11208 S Fordman Dr around 305. Builders in Daybreak are carrying standing inventory, and that's exactly the kind of listing where a motivated conversation can move the price.</p>
+<p>Don't assume every deal is soft, though. 4953 W Lake Terrace Ave listed at $585,000 and closed at $600,000 on August 14. In Garden Park, 4974 W Radicchio Dr listed at $520,000 and closed at $578,000, 111% of list, in four days. Well-priced homes still draw competition. Financing in this band skews mostly conventional, with roughly 1 in 6 closings paid in cash and a smaller share FHA or VA, so cash buyers are part of the competition too.</p>
+<p>If you're searching homes for sale in Daybreak Utah in this range, figure out which archetype you're shopping before you start touring. It'll save you time, and it'll help you recognize a real deal the moment you see one.</p>
+
+<div class="cta-block">
+  <h3>Ready to Find Your $600K Home in Daybreak?</h3>
+  <p>Every listing above is real inventory, and there's more that didn't make this list. If you want the full picture for your budget, or you're wondering what your current home could sell for in this market, reach out directly. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
