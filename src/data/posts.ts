@@ -367,6 +367,34 @@ const bodies: Record<string, string> = {
   <p>Every listing above is real inventory, and there's more that didn't make this list. If you want the full picture for your budget, or you're wondering what your current home could sell for in this market, reach out directly. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  '7-questions-daybreak-listing-agent': `<p>Not every agent sells Daybreak the same way. This is a master-planned community with a dozen villages, layered HOA rules, and a housing market that moves differently than South Jordan as a whole. If you're getting ready to sell, the agent you choose matters as much as the price you list at, and a lot of that comes down to questions most sellers never think to ask until they're already under contract. Before you sign a listing agreement, here are seven questions worth asking any Daybreak Realtor, including me.</p>
+
+<h2>🧰 Who Will You Recommend to Get My Home Ready?</h2>
+<p>Getting a home market-ready usually means more than a deep clean. Painters, professional cleaners, handymen, stagers, landscapers, and sometimes an HVAC or plumbing fix before a buyer's inspection ever finds it. A well-connected agent already has relationships with people who show up, do good work, and don't drag a two-week job into two months, not a list you have to vet yourself under a deadline. Ask specifically who they'd call for your situation, whether that's a painter for touch-ups or a full staging plan for an empty house. If the answer is vague, that's worth noting before you sign anything.</p>
+
+<h2>🏘️ How Many Homes Have You Actually Sold in Daybreak?</h2>
+<p>General South Jordan experience isn't the same as Daybreak experience. Lake Village, Garden Park, Harmony Village, Foothill Village, and SoDa Row each attract different buyers, and pricing a home well depends on knowing which one you're in. Ask for a real number, not a general sense of "a lot." If you want the full picture of how the villages differ, <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">our neighborhood guide breaks down all 12</a> by lake access, schools, and price point.</p>
+
+<h2>📸 What's the Marketing Plan Beyond the MLS?</h2>
+<p>Listing a home on the MLS is table stakes, not a marketing plan. Ask how they'll use professional photography, drone footage, video tours, social media, and paid buyer outreach to get your home in front of the right people, not just anyone browsing listings. Daybreak buyers often come from out of state or across the valley, drawn by the lake and the amenities before they've ever set foot in the community, so reach matters more here than in a lot of neighborhoods. Ask what their actual numbers look like too. Reach, engagement, and shares tell you more than a promise to "market it well."</p>
+
+<h2>📊 How Will You Price My Home?</h2>
+<p>A good agent walks you through comparable sales, current competition, and buyer demand, not just a number they think you want to hear. Ask how many homes are active right now, what the average days on market looks like, and how your home compares. If you want to see how this plays out in real numbers, <a href="/daybreak-newsletter/pricing-daybreak-home-right-2026">we've written about pricing a Daybreak home right in today's market</a>. An agent who can't explain their number probably guessed at it.</p>
+
+<h2>📍 Do You Really Know Daybreak's HOAs and Village Differences?</h2>
+<p>Daybreak runs on a master community association, and many villages layer on their own sub-association rules covering design guidelines, fees, and amenity access. Ask about HOA costs for your specific village, what the resort-style pools and trails actually offer, and how buyers weigh those differences when they're comparing homes. Getting this wrong in a listing description costs you buyers who assumed something that wasn't true.</p>
+
+<h2>📱 Will I Be Kept in the Loop?</h2>
+<p>You deserve to know what's happening while your home is on the market, not just when there's an offer. Ask how often you'll hear from them, whether that's real-time updates after a showing, a weekly market report, calendar reminders for a photoshoot or inspection, or a quick text after an open house. Sellers who feel out of the loop usually aren't getting bad news, they're just not getting news, and that gap is what makes an already stressful process feel worse than it needs to.</p>
+
+<h2>🎯 What Happens If My Home Doesn't Sell?</h2>
+<p>Every good agent has a plan before this becomes a problem. Ask how they'd approach a price adjustment, when they'd refresh the marketing and photos, and what the contract length looks like if the home needs more time on the market. It's also fair to ask about backup options, like a lease-back or a rent-to-own arrangement, in case your timeline and the market don't line up perfectly. Talking through this before you sign means you're not scrambling to figure it out three weeks into a stalled listing.</p>
+
+<div class="cta-block">
+  <h3>Ready to Make Your Move in Daybreak?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
