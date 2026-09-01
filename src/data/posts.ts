@@ -395,6 +395,41 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-utah-market-report-august-2026': `<p>Sixty-six homes changed hands in Daybreak during August 2026. That is a healthy late-summer month for a community that keeps adding rooftops faster than most of the Salt Lake Valley. The top-line number hides the more useful story, though, which is that single family homes and attached homes behaved almost nothing alike. Here is what the closed sales in the Daybreak housing market actually show.</p>
+
+<h2>🏡 Single Family Homes: $663,000 Median, 38 Days to Contract</h2>
+
+<p>Forty-five single family homes closed in August at a median sold price of $663,000. Median price per square foot came in at $227, and the median home went under contract in 38 days.</p>
+
+<p>The list-to-sale ratio was 98.9%, meaning the typical seller gave up about 1% off asking. That number is more encouraging than it sounds. Of the 66 total Daybreak sales in August, 35 closed at or above list price. Homes priced correctly out of the gate are still finding their buyer quickly. The ones that sat did so because they started high, not because demand disappeared. That tracks with <a href="/daybreak-newsletter/daybreak-housing-market-update-july-2026">July's closed sales data</a>, where pricing accuracy did more work than any other single factor.</p>
+
+<p>The range was wide. The lowest single family sale was $445,000 on Black Twig Drive in Garden Park, Daybreak's 55+ neighborhood. The highest was $1,747,000 on Watery Way, a 7,489 square foot home near the lake. Between those poles, most activity clustered in the $600,000 to $700,000 band, which is where Daybreak's newer inventory in Cascade Village and the Bingham Rim corridor tends to land. If you are shopping homes for sale in Daybreak Utah, that band is where you will see the most competition and the most choice at the same time.</p>
+
+<h2>🏘️ Daybreak Townhomes Cost More Per Square Foot</h2>
+
+<p>Twenty-one townhomes and condos sold in August at a median of $476,300, with a median of $275 per square foot.</p>
+
+<p>Read those two numbers together, because they are the most interesting thing in this month's data. Attached homes are commanding $48 more per square foot than single family homes. That inverts what most people assume about the entry-level end of a market.</p>
+
+<p>The explanation is location and land. Daybreak's townhome and condo product sits disproportionately in Downtown Daybreak, along Oquirrh Lake, and near the SoDa Row and TRAX corridor. You are buying proximity to the parts of the community people actually walk to. Single family inventory skews toward the newer villages further from the lake, where lots are bigger and the per-foot math softens. If you are still sorting out which pocket of the community is which, our <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">village-by-village breakdown</a> lays out how all twelve are positioned.</p>
+
+<p>Days on market in Daybreak for attached homes ran 48, ten days longer than single family. Practically, that means buyers shopping Daybreak townhomes for sale have more time to compare units and a bit more negotiating room than they would one segment up.</p>
+
+<h2>📊 What This Means If You Are Buying or Selling in Daybreak</h2>
+
+<p>For sellers, August confirmed that the pricing window is narrow but real. A 98.9% list-to-sale ratio across both segments means the market will meet you at a fair number and will not chase you above it. If your home is priced within a few percent of comparable recent closings, you should expect a contract inside about six weeks. If it is priced above that, expect to spend the fall chasing the market down.</p>
+
+<p>For buyers, the segment split is a genuine decision point. A townhome at the median saves you roughly $187,000 against the single family median. You give up square footage and you pay more per foot, but you often gain walkability to the lake, the trail system, and Downtown Daybreak. That trade is the central question for most people buying a home in Daybreak right now, and there is no universally correct answer to it.</p>
+
+<p>If you are weighing a move within Daybreak rather than into it, the numbers favor patience over panic. Nothing in August suggests a market about to move sharply in either direction. Prices held, days on market stayed reasonable, and the list-to-sale ratio barely moved from where it has been all summer.</p>
+
+<p>One caution on all of the above. Community-wide medians are a starting point, not an answer. Pricing on Silver Pond Drive looks different from pricing in Garden Park or along Lake Avenue, and a $663,000 median tells you very little about a specific 2,400 square foot home on a specific block. Daybreak Utah real estate is local even by the standards of local, and the village, the lot, and the build year all move the number more than the community average does.</p>
+
+<div class="cta-block">
+  <h3>Want the August Numbers for Your Street?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
