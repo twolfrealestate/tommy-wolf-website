@@ -430,6 +430,55 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'overpricing-biggest-mistake-daybreak-sellers': `<p>I have watched a lot of homes go on the market in Daybreak. Some go under contract in a weekend. Others sit through two seasons, three price reductions, and a seller who is convinced the Daybreak housing market turned on them.</p>
+
+<p>The difference usually is not the house. It is the number on the listing.</p>
+
+<p>Overpricing is the single most expensive mistake a seller can make here, and almost nobody does it on purpose. It happens for reasons that feel completely reasonable at the time.</p>
+
+<h2>🏡 Where the Wrong Number Comes From</h2>
+
+<p>Most sellers build a price out of three things: what they believe the home is worth, what they need to net for the next move, and a cushion for negotiating.</p>
+
+<p>Only the first one is market value. The other two are your circumstances, and buyers shopping Daybreak home values have no idea what your circumstances are. They are not paying extra because you need a bigger down payment in Herriman.</p>
+
+<p>Then there is emotion. If you raised your kids in that house, walked to Oquirrh Lake every summer evening, and hosted every Thanksgiving in that dining room, the home carries value no appraiser will ever put on paper. That is real, and it is worth something to you. It is not worth anything to the buyer comparing your listing against four others in the same village.</p>
+
+<p>The cushion is the trickiest part, because it feels smart. List high, leave room to come down, catch a buyer who does not negotiate hard. The logic falls apart the second you look at how buyers actually shop.</p>
+
+<h2>📊 Buyers Compare Everything Before They Ever Call</h2>
+
+<p>A buyer looking at homes for sale in Daybreak Utah is not evaluating your home in isolation. They have a saved search, price filters, and a phone that sorts every competing listing by price per square foot.</p>
+
+<p>Your 2,500 square foot home listed at a stretch price shows up right next to a comparable home priced correctly. Same beds, same baths, same village, sometimes the same builder floor plan. Buyers notice. They do not call and ask why yours is higher. They book the showing on the other one.</p>
+
+<p>Price also decides who ever sees your listing at all. List at $850,000 when the market says $799,000 and every buyer whose search caps at $800,000 never lays eyes on your home. You did not get a lower offer. You got no offer, from people who would have loved the house.</p>
+
+<h2>📉 The First Week Is the Only One Like It</h2>
+
+<p>Your listing gets more attention in its first seven days than it will at any other point. New listing alerts fire, saved searches trigger, and agents watching the neighborhood push it to their buyers. That is your peak audience, and you only get it once.</p>
+
+<p>Spend that week testing a high price and you have burned your best asset learning something a good comparative market analysis would have told you for free.</p>
+
+<p>What comes next is predictable. Showings slow. You cut the price, and nothing happens, because the cut was too small to reach a new pool of buyers. You cut again. Now the listing history shows two reductions and 60 plus days on market, and buyers read that as a home with a problem. They stop asking what is wrong with the price and start asking what is wrong with the house. Offers come in lower than they would have on day one.</p>
+
+<h2>📈 Priced Right Almost Always Nets More</h2>
+
+<p>This is the part that surprises sellers. Homes priced correctly from the start tend to sell faster and closer to asking, and often for more total money than the overpriced version of the same house.</p>
+
+<p>A correctly priced home creates competition. Several buyers see it that first week, multiple tour it, and nobody feels like they have room to lowball because the price already looks fair. That is how you get clean terms, a solid appraisal, and a buyer who is not hunting for reasons to renegotiate after inspection. It also protects the list-to-sale ratio Daybreak sellers are measured against when the next set of comps gets pulled.</p>
+
+<p>The overpriced version of that same house sells eventually. It just sells later, to one buyer holding all the leverage, at a number below where it should have started.</p>
+
+<p>Before you settle on a list price, look at three things: what has gone under contract in your village in the last 60 days, what is currently active and competing directly with you, and what is sitting. That last group tells you where the ceiling is. My breakdown of <a href="/daybreak-newsletter/pricing-daybreak-home-right-2026">how to price a Daybreak home in today's market</a> walks through the same data I use with my own listings.</p>
+
+<p>Daybreak is not one market. Pricing behaves differently across the villages, and <a href="/daybreak-newsletter/selling-daybreak-townhome-vs-single-family">townhomes and single family homes draw different buyer pools entirely</a>. A number that works in one pocket of the community can be five percent off in another.</p>
+
+<div class="cta-block">
+  <h3>Thinking About Selling in Daybreak?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
