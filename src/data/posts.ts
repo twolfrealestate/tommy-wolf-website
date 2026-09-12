@@ -479,6 +479,68 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-hoa-fees-2026': `<p>Two buyers toured Daybreak on the same Saturday this year. Both wrote offers. Both closed. One pays $144.50 a month in association dues. The other pays $591.50. Neither got better amenities out of the deal. They swim in the same five pools, kayak the same Oquirrh Lake, and run the same trails. The gap comes from a second fee layer that attaches to some addresses and not others, and it is almost never mentioned on the listing. Anyone buying a home in Daybreak should know which layers hit their specific street before they write, because the community stacks 15 sub-associations and 15 benefited service areas on top of the master association.</p>
+
+<p>All figures below come from the Daybreak Community Association 2026 Quarterly Assessment Rate Sheet, updated February 20, 2026. Daybreak bills quarterly. I have divided everything by three, because that is how a lender will look at it.</p>
+
+<h2>💵 What Every Daybreak Home Pays First</h2>
+
+<p>The master assessment is the floor. Nobody negotiates out of it.</p>
+
+<ul>
+  <li>Master Association base assessment: $334.50 per quarter</li>
+  <li>Quantum Fiber internet and data: $99.00 per quarter</li>
+  <li>Total: $433.50 per quarter, or $144.50 per month</li>
+</ul>
+
+<p>The base rose $6.00 a quarter for 2026, which works out to $2.00 a month. The fiber assessment did not change, and it is billed whether or not you turn the service on, so treat it as a utility you have already bought.</p>
+
+<p>What it covers is the reason most people move here: 500 Mb fiber to the home, the Daybreak Community Center with its fitness floor and indoor track, five pools, Oquirrh Lake with free canoe, kayak and paddleboard rentals, the Beach Club watercraft checkout, The Watercourse and The Cove in the Upper Villages, dozens of neighborhood parks, tennis, pickleball and basketball courts, and the LiveDAYBREAK event calendar. Design review and covenant enforcement come out of the same fee.</p>
+
+<p>One exception. Founders Village Phase 1 homes pay $111.50 a month. They are not charged the fiber assessment and choose their own provider. That is the lowest all-in association cost in the community.</p>
+
+<p>If you buy a detached single-family home in Founders, Eastlake, Creekside, Highland Park, South Station, North Shore, Cascade or Watermark, the master fee is usually your entire bill. Confirm it per address anyway, because cottage court lots and paired homes sit inside those same villages and do carry a second layer.</p>
+
+<h2>🏘️ The Second Layer on Daybreak Townhomes</h2>
+
+<p>Six sub-associations run their own board, budget and governing documents. These 2026 monthly totals include the $144.50 master fee.</p>
+
+<ul>
+  <li>South Station Townhomes: $357.50</li>
+  <li>Highland Park Townhomes: $358.50</li>
+  <li>SoDa Row Townhomes: $377.50</li>
+  <li>Creekside Townhomes: $383.50</li>
+  <li>North Shore Townhomes: $419.50</li>
+  <li>Lake Village Townhomes: $436.50</li>
+</ul>
+
+<p>The fee buys the same package in all six: limited exterior maintenance, landscaping, snow pushing, building insurance and reserves. No extra amenities. You are buying maintenance and insurance, not access. South Station is the cheapest of the group. Lake Village took the largest increase of any sub-association this year, up $54 a month, and every Lake Village home also pays the $11 Boat House assessment, so the real all-in is closer to $447.50. North Shore deserves one extra question: 20 lots carry an additional $25 a month for garbage removal, and you want to know whether yours is one of them.</p>
+
+<p>Another set of townhome neighborhoods gets the same exterior maintenance package but is billed through the master association instead of a separate board. Lexington Townhomes are the lowest at $289.75 a month, and the range climbs through Parkside, Water Garden, Watermark, Urban Townhomes, Chocolate Village and Axis at North Station up to Marina Village at $337.31. The one to study is Heights Park, where the Sego Homes product runs $313.80 and the Holmes Homes product runs $356.61. Same village, $42.81 a month apart, purely on building stock and reserve requirements. That is a little over $5,100 across ten years, and it is a real factor when you are comparing Daybreak townhomes for sale on list price alone. It is the same dynamic behind the appraisal and buyer-pool differences I covered in <a href="/daybreak-newsletter/selling-daybreak-townhome-vs-single-family">the breakdown of selling a townhome versus a single-family home here</a>.</p>
+
+<h2>🏊 The Fees That Buy Something Extra</h2>
+
+<p>Three parts of Daybreak charge for access rather than maintenance, and they are the best value on the list.</p>
+
+<p>Garden Park Village detached homes pay $286.50 a month, down $31 for 2026, the largest decrease of any sub-association. About $60 of that is the clubhouse slice, which buys a private pool, workout equipment, pickleball courts, event space and the pavilion, all restricted to Garden Park residents and their guests. Garden Park Townhomes run $469.50 and Garden Park Condos $591.50, the highest total anywhere in Daybreak, billed across three separate invoices. SpringHouse Village runs $369.00 with access to the newest 55+ club, plus a separate $27 a month insurance assessment that applies to 36 units.</p>
+
+<p>The Island is $185.75 a month and fell $70.75, the biggest drop in the community. Island residents get a private park and pavilion, private beaches, a lakeside firepit and a landscaped paseo. Cottage court lots in Cascade and Watermark pay $15 a month, total $159.50, and that buys snow pushing on the shared driveway and nothing else. Which village you land in changes the amenity math as much as the price does, and <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">our village-by-village guide to all 12 Daybreak neighborhoods</a> is the place to start if you are still narrowing that down.</p>
+
+<h2>🔑 The Line Items That Catch People</h2>
+
+<p>Paired homes by Destination Homes total $227.50 a month in Cascade and Watermark and look like a bargain. The fee covers landscaping and snow pushing only. Roof, foundation and structural maintenance fall on the two adjoining owners to share at their own cost. You are saving roughly $80 a month against a typical service area and taking on half of a shared roof. That can be the right trade. It should be a decision, not a surprise.</p>
+
+<p>Five sub-associations are managed by outside companies and do not publish rates through Daybreak: Daybreak Townhomes 1 in the original Founders village, Carriage Home Condos, Eastlake Village Condos, Lake Village Condos and Tempo Condos downtown. Do not accept an estimate on any of them. Daybreak Townhomes 1 in particular raised dues $240 a month effective January 2025 to fund repairs tied to construction-defect litigation. Pull the resale packet and reserve study on day one of your due diligence window, not day nine of ten.</p>
+
+<p>Sellers have their own line. The Community Enhancement Fee is 0.5% of the gross sales price at closing, paid to LiveDAYBREAK, separate from every assessment above. On a $650,000 sale that is $3,250, and it belongs in your net sheet from the start.</p>
+
+<p>The reason all of this matters beyond budgeting is qualifying. Lenders count association dues in your debt-to-income ratio. The $290 a month spread between two Daybreak addresses is worth roughly $46,000 in loan amount at a 6.5% thirty-year rate. The association fee can decide how much house you can buy here, sometimes more than the list price does. For a live transaction, order the resale packet through Homewisedocs.com. That is the only figure a lender or title company will accept.</p>
+
+<div class="cta-block">
+  <h3>Want the Exact Number for a Specific Address?</h3>
+  <p>Two homes on the same street can sit in completely different fee structures. Send me the address and I will pull the layers that apply and show you the all-in monthly cost next to the mortgage payment. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
