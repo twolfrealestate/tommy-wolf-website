@@ -179,7 +179,6 @@ export default function Footer() {
             <p className="eyebrow" style={{ marginBottom: '20px' }}>Quick Links</p>
             <nav style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               <FooterLink to="/">Home</FooterLink>
-              <FooterLink to="/services">Services</FooterLink>
               <FooterLink to="/buyers">Buyers</FooterLink>
               <FooterLink to="/sellers">Sellers</FooterLink>
               <FooterLink to="/about">About</FooterLink>

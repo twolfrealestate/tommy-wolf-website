@@ -2,6 +2,18 @@ import { useEffect, useState } from 'react'
 import FadeSection from '../components/FadeSection'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
 
+const LISTING_SERVICES = [
+  { icon: '📷', title: 'Professional Photography & Video',          desc: 'High-resolution stills, twilight shots, and walkthrough video that make your listing stand out online.' },
+  { icon: '📊', title: 'Comparative Market Analysis',               desc: 'Neighborhood-level pricing backed by current data — not automated estimates — so you list at the right number.' },
+  { icon: '📣', title: 'Targeted Digital Marketing',                desc: 'Paid social, search, and display campaigns aimed at the buyers most likely to convert on your home.' },
+  { icon: '🔑', title: 'MLS & Syndication',                        desc: 'Full MLS entry plus syndication to Zillow, Realtor.com, Homes.com, and every major portal automatically.' },
+  { icon: '🤝', title: 'Offer Negotiation & Strategy',              desc: 'Side-by-side offer comparison, escalation clause analysis, and strategy for maximizing your net proceeds.' },
+  { icon: '📋', title: 'Transaction Coordination',                  desc: 'Deadlines, disclosures, title, and HOA docs tracked and managed from contract to close.' },
+  { icon: '🏡', title: 'Pre-Listing Consultation',                  desc: 'An honest walkthrough with specific, ROI-focused recommendations before a single dollar is spent on prep.' },
+  { icon: '📅', title: 'Open House Coordination',                   desc: 'Professionally staged and marketed open houses that create urgency and generate competitive offers.' },
+  { icon: '📞', title: 'Consistent Communication',                  desc: 'Regular updates on showing feedback, market activity, and offer status — no chasing required.' },
+]
+
 const faqs = [
   {
     q: 'How do I know what my home is worth?',
@@ -243,6 +255,68 @@ export default function Sellers() {
         </div>
       </FadeSection>
       <div className="gold-rule-full" />
+
+      {/* WHAT'S INCLUDED WHEN YOU LIST WITH ME */}
+      <FadeSection className="section section--light">
+        <div className="content-wrap">
+          {/* Section header */}
+          <div style={{ maxWidth: '680px', marginBottom: '56px' }}>
+            <p className="eyebrow fade-up" style={{ marginBottom: '14px' }}>For Sellers</p>
+            <h2
+              className="fade-up"
+              style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(30px, 4vw, 44px)', color: 'var(--color-text)', marginBottom: '20px', lineHeight: 1.15 }}
+            >
+              What's Included When You List With Me
+            </h2>
+            <p
+              className="fade-up"
+              style={{ fontFamily: 'var(--font-sans)', fontSize: '16px', color: 'var(--color-text-mid)', lineHeight: 1.75 }}
+            >
+              When you hire me to sell your home, you get a complete marketing and transaction management partner — not just a sign in the yard.
+            </p>
+          </div>
+
+          {/* 3×3 grid */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="services-grid">
+            {LISTING_SERVICES.map(item => (
+              <div
+                key={item.title}
+                className="fade-up"
+                style={{
+                  backgroundColor: '#fff',
+                  borderTop: '2px solid var(--color-accent)',
+                  padding: '28px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '10px',
+                }}
+              >
+                <span style={{ fontSize: '28px', lineHeight: 1 }}>{item.icon}</span>
+                <h3
+                  style={{
+                    fontFamily: 'var(--font-sans)',
+                    fontSize: '13px',
+                    fontWeight: 600,
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.08em',
+                    color: 'var(--color-text)',
+                  }}
+                >
+                  {item.title}
+                </h3>
+                <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', color: 'var(--color-text-mid)', lineHeight: 1.7, fontWeight: 300 }}>
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <style>{`
+          @media (max-width: 900px) { .services-grid { grid-template-columns: repeat(2, 1fr) !important; } }
+          @media (max-width: 560px) { .services-grid { grid-template-columns: 1fr !important; } }
+        `}</style>
+      </FadeSection>
 
       {/* FAQ ACCORDION */}
       <FadeSection className="section section--light">

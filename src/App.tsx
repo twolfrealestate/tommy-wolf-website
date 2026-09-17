@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 
 // Core pages
 import Home from './pages/Home'
-import Services from './pages/Services'
 import Buyers from './pages/Buyers'
 import Sellers from './pages/Sellers'
 import DaybreakNewsletter from './pages/DaybreakNewsletter'
@@ -13,6 +12,7 @@ import DaybreakMarketPulse from './pages/DaybreakMarketPulse'
 import About from './pages/About'
 import DaybreakFaq from './pages/DaybreakFaq'
 import Contact from './pages/Contact'
+import Reviews from './pages/Reviews'
 
 // Service areas
 import SouthJordan from './pages/service-areas/SouthJordan'
@@ -85,7 +85,6 @@ export default function App() {
           <Routes>
             {/* Core */}
             <Route path="/" element={<Home />} />
-            <Route path="/services" element={<Services />} />
             <Route path="/buyers" element={<Buyers />} />
             <Route path="/sellers" element={<Sellers />} />
             <Route path="/daybreak-newsletter" element={<DaybreakNewsletter />} />
@@ -94,6 +93,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/daybreak-faq" element={<DaybreakFaq />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/reviews" element={<Reviews />} />
 
             {/* Service areas */}
             <Route path="/service-areas/south-jordan" element={<SouthJordan />} />

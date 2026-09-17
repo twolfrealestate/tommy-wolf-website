@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 
 const SERVICE_AREAS = [
@@ -21,11 +21,13 @@ const DAYBREAK_FEATURES = [
   { label: 'LiveDAYBREAK',         to: '/daybreak-features/livedaybreak' },
 ]
 
+const SERVICES_ITEMS = [
+  { label: 'Buyers',  to: '/buyers' },
+  { label: 'Sellers', to: '/sellers' },
+]
+
 const MAIN_LINKS = [
-  { label: 'Home',                   to: '/' },
-  { label: 'Services',               to: '/services' },
-  { label: 'Buyers',                 to: '/buyers' },
-  { label: 'Sellers',                to: '/sellers' },
+  { label: 'Reviews',                to: '/reviews' },
   { label: 'Newsletter',    to: '/daybreak-newsletter' },
   { label: 'Market Pulse',  to: '/daybreak-market-pulse' },
   { label: 'About',         to: '/about' },
@@ -51,6 +53,7 @@ const linkBase: React.CSSProperties = {
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [mobileServices, setMobileServices] = useState(false)
   const [mobileAreas, setMobileAreas] = useState(false)
   const [mobileFeatures, setMobileFeatures] = useState(false)
   const location = useLocation()
@@ -112,11 +115,13 @@ export default function Navigation() {
 
           {/* Desktop links */}
           <div id="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'nowrap' }}>
+            {/* Services dropdown — trigger does not navigate, only opens the menu */}
+            <ServicesDropdown />
+
             {MAIN_LINKS.map(link => (
               <NavLink
                 key={link.to}
                 to={link.to}
-                end={link.to === '/'}
                 style={({ isActive }) => ({
                   ...linkBase,
                   color: isActive ? 'var(--color-accent)' : '#fff',
@@ -195,6 +200,15 @@ export default function Navigation() {
             overflowY: 'auto', display: 'flex', flexDirection: 'column',
           }}
         >
+          {/* Mobile Services — expands in place, not hover-only */}
+          <MobileAccordion
+            label="Services"
+            open={mobileServices}
+            onToggle={() => setMobileServices(o => !o)}
+          >
+            {SERVICES_ITEMS.map(item => <MobileSubLink key={item.to} to={item.to} label={item.label} />)}
+          </MobileAccordion>
+
           {MAIN_LINKS.map(link => (
             <Link
               key={link.to}
@@ -252,6 +266,13 @@ export default function Navigation() {
           #nav-lawson-logo { display: none !important; }
           #nav-logo-sep    { display: none !important; }
         }
+        /* Keyboard/click-controlled state for the Services dropdown, layered on
+           top of the existing hover/focus-within behavior shared by nav dropdowns. */
+        .nav-dropdown-parent.nav-dropdown-open > .nav-dropdown {
+          opacity: 1 !important;
+          visibility: visible !important;
+          pointer-events: auto !important;
+        }
       `}</style>
     </>
   )
@@ -270,6 +291,63 @@ function Bar({ style }: { style?: React.CSSProperties }) {
   return <span style={{ display: 'block', height: '2px', background: 'var(--color-accent)', transition: 'transform 0.2s, opacity 0.2s', ...style }} />
 }
 
+/**
+ * Desktop "Services" nav item. Renders as a button (never navigates) that
+ * opens a dropdown containing Buyers / Sellers. Accessible per the WAI-ARIA
+ * disclosure pattern: Enter/Space (native button behavior) toggles it open,
+ * Escape closes it and returns focus to the trigger, and its links sit in
+ * normal tab order once visible so they're reachable by Tab.
+ */
+function ServicesDropdown() {
+  const [open, setOpen] = useState(false)
+  const containerRef = useRef<HTMLDivElement>(null)
+
+  // Close when clicking outside the dropdown
+  useEffect(() => {
+    if (!open) return
+    function handleClickOutside(e: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [open])
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
+    if (e.key === 'Escape') {
+      setOpen(false)
+      containerRef.current?.querySelector('button')?.focus()
+    }
+  }
+
+  return (
+    <div
+      ref={containerRef}
+      className={`nav-dropdown-parent${open ? ' nav-dropdown-open' : ''}`}
+      style={{ position: 'relative' }}
+      onKeyDown={handleKeyDown}
+    >
+      <button
+        type="button"
+        aria-haspopup="true"
+        aria-expanded={open}
+        onClick={() => setOpen(o => !o)}
+        style={{ ...linkBase, display: 'flex', alignItems: 'center', gap: '4px' }}
+      >
+        Services <ChevronDown />
+      </button>
+      <div className="nav-dropdown" role="menu">
+        {SERVICES_ITEMS.map(item => (
+          <Link key={item.to} to={item.to} role="menuitem" onClick={() => setOpen(false)}>
+            {item.label}
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 function MobileAccordion({ label, open, onToggle, children }: {
   label: string; open: boolean; onToggle: () => void; children: React.ReactNode
 }) {
@@ -277,6 +355,7 @@ function MobileAccordion({ label, open, onToggle, children }: {
     <>
       <button
         onClick={onToggle}
+        aria-expanded={open}
         style={{
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           padding: '14px 28px', background: 'none', border: 'none',

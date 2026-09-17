@@ -2,6 +2,15 @@ import { useEffect, useState } from 'react'
 import FadeSection from '../components/FadeSection'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
 
+const BUYER_SERVICES = [
+  { icon: '🎯', title: 'Needs Assessment',                          desc: 'A real conversation about your goals, timeline, budget, and lifestyle before we ever tour a home.' },
+  { icon: '🔍', title: 'Custom Property Search',                    desc: 'Curated MLS alerts based on your exact criteria — not generic Zillow notifications.' },
+  { icon: '🏘️', title: 'Neighborhood Guidance',                    desc: 'Expert coverage of all 11 Daybreak villages plus South Jordan, Herriman, and Riverton.' },
+  { icon: '📝', title: 'Offer Preparation & Strategy',              desc: 'Competitive offer structuring, escalation clauses, and earnest money guidance to win in any market.' },
+  { icon: '🔎', title: 'Inspection & Due Diligence',               desc: 'Trusted inspector referrals, review of findings, and negotiation of repair credits or price adjustments.' },
+  { icon: '🏦', title: 'Trusted Lender Referrals',                  desc: 'Connections to local lenders who close on time and give you honest pre-approval numbers.' },
+]
+
 const faqs = [
   {
     q: 'How do I know how much home I can afford?',
@@ -246,6 +255,57 @@ export default function Buyers() {
         </div>
       </FadeSection>
       <div className="gold-rule-full" />
+
+      {/* HOW I SUPPORT BUYERS */}
+      <FadeSection className="section section--light">
+        <div className="content-wrap">
+          {/* Section header */}
+          <div style={{ maxWidth: '680px', marginBottom: '56px' }}>
+            <p className="eyebrow fade-up" style={{ marginBottom: '14px' }}>For Buyers</p>
+            <h2
+              className="fade-up"
+              style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(30px, 4vw, 44px)', color: 'var(--color-text)', lineHeight: 1.15 }}
+            >
+              How I Support Buyers
+            </h2>
+          </div>
+
+          {/* 2-column list */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '28px 48px' }} className="buyers-grid">
+            {BUYER_SERVICES.map(item => (
+              <div
+                key={item.title}
+                className="fade-up"
+                style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}
+              >
+                <span style={{ fontSize: '26px', lineHeight: 1, flexShrink: 0, marginTop: '2px' }}>{item.icon}</span>
+                <div>
+                  <h3
+                    style={{
+                      fontFamily: 'var(--font-sans)',
+                      fontSize: '13px',
+                      fontWeight: 600,
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.08em',
+                      color: 'var(--color-text)',
+                      marginBottom: '8px',
+                    }}
+                  >
+                    {item.title}
+                  </h3>
+                  <p style={{ fontFamily: 'var(--font-sans)', fontSize: '14px', color: 'var(--color-text-mid)', lineHeight: 1.7, fontWeight: 300 }}>
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <style>{`
+          @media (max-width: 640px) { .buyers-grid { grid-template-columns: 1fr !important; } }
+        `}</style>
+      </FadeSection>
 
       {/* FAQ ACCORDION */}
       <FadeSection className="section section--light">

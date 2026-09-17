@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import FadeSection from '../components/FadeSection'
+import ReviewCard from '../components/ReviewCard'
+import reviews from '../data/reviews'
 import { saveLead, formatPhone } from '../lib/leads'
 
 /* ─── Neighborhood data ────────────────────────────────────── */
@@ -223,6 +225,39 @@ export default function Home() {
       </FadeSection>
 
       {/* ══════════════════════════════════════════
+          SECTION 1B — REVIEWS
+      ══════════════════════════════════════════ */}
+      <FadeSection className="section section--mid">
+        <div className="content-wrap">
+          <h2
+            className="fade-up"
+            style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(30px,4vw,44px)', color: 'var(--color-primary)', textAlign: 'center', marginBottom: '48px' }}
+          >
+            Five-Star Reviews From Daybreak and South Jordan Clients
+          </h2>
+
+          <div className="home-reviews-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '40px' }}>
+            {reviews.map((text, i) => <ReviewCard key={i} text={text} />)}
+          </div>
+
+          <div className="fade-up" style={{ textAlign: 'center' }}>
+            <Link
+              to="/reviews"
+              style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--color-accent)' }}
+              onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-accent-light)')}
+              onMouseLeave={e => (e.currentTarget.style.color = 'var(--color-accent)')}
+            >
+              Read all reviews →
+            </Link>
+          </div>
+        </div>
+
+        <style>{`
+          @media (max-width: 900px) { .home-reviews-grid { grid-template-columns: 1fr !important; } }
+        `}</style>
+      </FadeSection>
+
+      {/* ══════════════════════════════════════════
           SECTION 2 — HOME VALUATION
       ══════════════════════════════════════════ */}
       <FadeSection
@@ -353,14 +388,22 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="fade-up" style={{ textAlign: 'center', marginTop: '48px' }}>
+          <div className="fade-up offer-links" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px', marginTop: '48px' }}>
             <Link
-              to="/services"
+              to="/buyers"
               style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--color-accent)' }}
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-accent-light)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--color-accent)')}
             >
-              View All Services →
+              For Buyers →
+            </Link>
+            <Link
+              to="/sellers"
+              style={{ fontFamily: 'var(--font-sans)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--color-accent)' }}
+              onMouseEnter={e => (e.currentTarget.style.color = 'var(--color-accent-light)')}
+              onMouseLeave={e => (e.currentTarget.style.color = 'var(--color-accent)')}
+            >
+              For Sellers →
             </Link>
           </div>
         </div>
@@ -368,6 +411,9 @@ export default function Home() {
         <style>{`
           @media (max-width: 768px) {
             .services-grid { grid-template-columns: 1fr !important; }
+          }
+          @media (max-width: 640px) {
+            .offer-links { flex-direction: column !important; gap: 20px !important; }
           }
         `}</style>
       </FadeSection>
