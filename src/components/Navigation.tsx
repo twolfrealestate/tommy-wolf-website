@@ -114,7 +114,7 @@ export default function Navigation() {
           </div>
 
           {/* Desktop links */}
-          <div id="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'nowrap' }}>
+          <div id="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'nowrap', marginRight: '48px' }}>
             {/* Services dropdown — trigger does not navigate, only opens the menu */}
             <ServicesDropdown />
 
