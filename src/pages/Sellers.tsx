@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import FadeSection from '../components/FadeSection'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const LISTING_SERVICES = [
   { icon: '📷', title: 'Professional Photography & Video',          desc: 'High-resolution stills, twilight shots, and walkthrough video that make your listing stand out online.' },
@@ -142,9 +143,10 @@ const EMPTY: FormState = {
 }
 
 export default function Sellers() {
-  useEffect(() => {
-    document.title = 'Seller Resources | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Selling Your Daybreak Home | Tommy Wolf, Daybreak REALTOR®',
+    'Selling in Daybreak or South Jordan? Professional photography, market analysis, targeted marketing, and a full seller FAQ from resident REALTOR® Tommy Wolf.'
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<FormState>>({})

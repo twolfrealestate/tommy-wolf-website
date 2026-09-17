@@ -1,13 +1,14 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../../../components/FadeSection'
 import ImagePlaceholder from '../../../components/ImagePlaceholder'
 import neighborhoods from '../../../data/neighborhoods'
+import { usePageMeta } from '../../../hooks/usePageMeta'
 
 export default function NeighborhoodsIndex() {
-  useEffect(() => {
-    document.title = 'Daybreak Neighborhoods Guide | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Daybreak Neighborhood Guides | Tommy Wolf, Daybreak REALTOR®',
+    'Guides to all 11 Daybreak villages in South Jordan, Utah: price ranges, home types, HOA fees, and who each neighborhood fits best.'
+  )
 
   return (
     <main>

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import FadeSection from '../components/FadeSection'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const ANCHOR_LINKS = [
   { label: 'Overview',          id: 'overview' },
@@ -347,9 +348,10 @@ export default function AIRealtor() {
   const heroRef = useRef<HTMLDivElement>(null)
   const [anchorVisible, setAnchorVisible] = useState(false)
 
-  useEffect(() => {
-    document.title = 'Become an AI Realtor | Tommy Wolf'
-  }, [])
+  usePageMeta(
+    'AI Training for Real Estate Agents | Tommy Wolf, Daybreak REALTOR®',
+    'For licensed real estate agents: learn to use AI in your business, available to agents who join eXp Realty with Tommy Wolf as sponsor. Not for home buyers or sellers.'
+  )
 
   useEffect(() => {
     const hero = heroRef.current

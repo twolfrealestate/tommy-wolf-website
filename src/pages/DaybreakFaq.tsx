@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../components/FadeSection'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 interface FaqItem { q: string; a: string }
 interface FaqSection { title: string; items: FaqItem[] }
@@ -183,9 +184,10 @@ function AccordionItem({ q, a }: FaqItem) {
 }
 
 export default function DaybreakFaq() {
-  useEffect(() => {
-    document.title = 'Daybreak Community FAQ | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Daybreak FAQ | Tommy Wolf, Daybreak REALTOR®',
+    'Daybreak, Utah FAQ: HOA fees and what they cover, Oquirrh Lake, trails, schools, builders, and community events. Answers from a Daybreak resident REALTOR®.'
+  )
 
   return (
     <main>

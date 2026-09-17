@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import FadeSection from '../components/FadeSection'
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 interface FormState {
   firstName: string
@@ -47,9 +48,10 @@ const SOCIAL_LINKS = [
 ]
 
 export default function Contact() {
-  useEffect(() => {
-    document.title = 'Contact | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Contact | Tommy Wolf, Daybreak REALTOR®',
+    'Contact Daybreak REALTOR® Tommy Wolf at (801) 580-0647 or twolfrealestate@gmail.com. Serving Daybreak, South Jordan, Herriman, and Riverton, Utah.'
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({})

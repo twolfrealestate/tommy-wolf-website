@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import FadeSection from '../components/FadeSection'
 import { saveLead, validateEmail } from '../lib/leads'
 import posts from '../data/posts'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
@@ -12,9 +13,10 @@ export default function DaybreakNewsletterPost() {
   const { slug } = useParams<{ slug: string }>()
   const post = posts.find(p => p.slug === slug)
 
-  useEffect(() => {
-    document.title = post ? `${post.title} | Tommy Wolf REALTOR®` : 'Post Not Found | Tommy Wolf REALTOR®'
-  }, [post])
+  usePageMeta(
+    post ? `${post.title} | Daybreak Newsletter` : 'Post Not Found | Daybreak Newsletter',
+    post ? post.metaDescription : 'This Daybreak newsletter post could not be found.'
+  )
 
   const [email, setEmail] = useState('')
   const [subDone, setSubDone] = useState(false)

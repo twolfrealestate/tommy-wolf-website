@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../components/FadeSection'
 import { saveLead, validateEmail } from '../lib/leads'
 import posts from '../data/posts'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const ALL_TAGS = ['ALL', 'MARKET UPDATE', 'HOA', 'DEVELOPMENT', 'BUYERS', 'SELLERS']
 
@@ -16,9 +17,10 @@ function formatDate(iso: string) {
 }
 
 export default function DaybreakNewsletter() {
-  useEffect(() => {
-    document.title = 'Daybreak Newsletter | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Daybreak Newsletter | Tommy Wolf, Daybreak REALTOR®',
+    'Daybreak and South Jordan real estate news: market updates, HOA fee breakdowns, neighborhood guides, and buying and selling advice from a Daybreak resident.'
+  )
 
   const [activeTag, setActiveTag] = useState('ALL')
   const [firstName, setFirstName] = useState('')

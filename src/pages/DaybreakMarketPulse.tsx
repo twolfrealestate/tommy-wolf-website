@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, ReferenceLine, LabelList,
@@ -7,6 +7,7 @@ import FadeSection from '../components/FadeSection'
 import { saveLead, validateEmail } from '../lib/leads'
 import marketData, { lastUpdated } from '../data/marketData.js'
 import type { MonthEntry } from '../data/marketData.js'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 // ── Types ────────────────────────────────────────────────────────────────────
 interface ChartEntry {
@@ -120,7 +121,10 @@ function ChartCard({ title, subtitle, children }: { title: string; subtitle: str
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 export default function DaybreakMarketPulse() {
-  useEffect(() => { document.title = 'Daybreak Market Pulse | Tommy Wolf REALTOR®' }, [])
+  usePageMeta(
+    'Daybreak Market Pulse | Tommy Wolf, Daybreak REALTOR®',
+    'Current Daybreak and South Jordan market data: median sale price, days on market, list-to-sale ratio, and units sold for single family homes and townhomes.'
+  )
 
   const [timePeriod, setTimePeriod] = useState('Monthly')
   const [homeType, setHomeType] = useState('All Types')

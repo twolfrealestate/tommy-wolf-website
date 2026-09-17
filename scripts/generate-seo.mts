@@ -53,6 +53,7 @@ interface NeighborhoodConfig {
   hoa: string
   priceRange: string
   extraBadge: string
+  metaDescription: string
 }
 
 interface FeatureConfig {
@@ -339,7 +340,7 @@ function buildSitemap(): string {
 // ─── FILE 2: llms.txt ───────────────────────────────────────────────────────
 
 function neighborhoodSummary(n: NeighborhoodConfig): string {
-  return `${n.h2}. Price range: ${n.priceRange}. HOA: ${n.hoa}`
+  return n.metaDescription
 }
 
 function featureSummary(f: FeatureConfig): string {

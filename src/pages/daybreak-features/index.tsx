@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../../components/FadeSection'
 import ImagePlaceholder from '../../components/ImagePlaceholder'
 import features from '../../data/features'
+import { usePageMeta } from '../../hooks/usePageMeta'
 
 const INDEX_CARDS = [
   { slug: 'oquirrh-lake', desc: 'A 65-acre private freshwater lake at the heart of Daybreak — one of the most unique residential amenities in the Western United States.' },
@@ -18,9 +18,10 @@ const INDEX_CARDS = [
 ]
 
 export default function DaybreakFeaturesIndex() {
-  useEffect(() => {
-    document.title = 'Daybreak Features & Amenities | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Daybreak Features & Amenities | Tommy Wolf, Daybreak REALTOR®',
+    'Daybreak amenity guides: Oquirrh Lake, the Watercourse, The Loop trails, The Spoke bike park, parks, pools, the community center, SoDa Row, and Downtown Daybreak.'
+  )
 
   return (
     <main>

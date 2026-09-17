@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../components/FadeSection'
 import ReviewCard from '../components/ReviewCard'
 import GoalsContactSection from '../components/GoalsContactSection'
 import reviews from '../data/reviews'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const RESOURCE_LINKS = [
   { label: 'Daybreak Neighborhood Guides', to: '/service-areas/daybreak/neighborhoods' },
@@ -16,13 +16,10 @@ const RESOURCE_LINKS = [
 ]
 
 export default function Reviews() {
-  useEffect(() => {
-    document.title = 'Client Reviews | Tommy Wolf, Daybreak & South Jordan REALTOR®'
-    document.querySelector('meta[name="description"]')?.setAttribute(
-      'content',
-      'Five-star client reviews for Tommy Wolf, REALTOR with the Lawson Real Estate Team serving Daybreak, South Jordan, Herriman, and Riverton, Utah.'
-    )
-  }, [])
+  usePageMeta(
+    'Client Reviews | Tommy Wolf, Daybreak & South Jordan REALTOR®',
+    'Five-star client reviews for Tommy Wolf, REALTOR with the Lawson Real Estate Team serving Daybreak, South Jordan, Herriman, and Riverton, Utah.'
+  )
 
   return (
     <main>

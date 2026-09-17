@@ -1,10 +1,18 @@
 import { Link } from 'react-router-dom'
 import FadeSection from './FadeSection'
 import ImagePlaceholder from './ImagePlaceholder'
+import { usePageMeta } from '../hooks/usePageMeta'
 import type { FeatureConfig } from '../data/features'
 
 export default function FeaturePage({ config }: { config: FeatureConfig }) {
   const imgSrc = `/features/${config.slug}.png`
+
+  const fullDescription = `${config.name} in Daybreak, South Jordan, Utah. ${config.h2}. Amenity guide from Daybreak resident REALTOR® Tommy Wolf.`
+  const shortDescription = `${config.name} in Daybreak, South Jordan, Utah. ${config.h2}.`
+  usePageMeta(
+    `${config.name} | Daybreak Amenities`,
+    fullDescription.length > 165 ? shortDescription : fullDescription
+  )
 
   return (
     <main>

@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import FadeSection from '../components/FadeSection'
 import ReviewCard from '../components/ReviewCard'
 import reviews from '../data/reviews'
 import { saveLead, formatPhone } from '../lib/leads'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 /* ─── Neighborhood data ────────────────────────────────────── */
 const NEIGHBORHOODS = [
@@ -100,9 +101,10 @@ function Field({
    HOME PAGE
 ═══════════════════════════════════════════════════════════ */
 export default function Home() {
-  useEffect(() => {
-    document.title = 'Home | Tommy Wolf REALTOR® | Lawson Real Estate Team'
-  }, [])
+  usePageMeta(
+    'Daybreak & South Jordan Real Estate | Tommy Wolf, Daybreak REALTOR®',
+    'Tommy Wolf is a REALTOR® with the Lawson Real Estate Team living in Daybreak, South Jordan, UT. Helping buyers and sellers in Daybreak, Herriman, and Riverton.'
+  )
 
   /* valuation form state */
   const [form, setForm] = useState({ firstName: '', lastName: '', address: '', email: '', phone: '' })

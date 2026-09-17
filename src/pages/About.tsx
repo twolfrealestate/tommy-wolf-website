@@ -1,12 +1,13 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../components/FadeSection'
 import ImagePlaceholder from '../components/ImagePlaceholder'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function About() {
-  useEffect(() => {
-    document.title = 'About Tommy Wolf | Daybreak & South Jordan REALTOR®'
-  }, [])
+  usePageMeta(
+    'About Tommy Wolf | Tommy Wolf, Daybreak REALTOR®',
+    'Tommy Wolf grew up in Sandy, Utah, worked Bay Area real estate, and returned to raise his family in Garden Park, Daybreak. REALTOR® with the Lawson Real Estate Team.'
+  )
 
   return (
     <main>

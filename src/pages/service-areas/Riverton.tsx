@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../../components/FadeSection'
 import ImagePlaceholder from '../../components/ImagePlaceholder'
 import { saveLead, formatPhone, validateEmail } from '../../lib/leads'
+import { usePageMeta } from '../../hooks/usePageMeta'
 
 interface FormState { firstName: string; lastName: string; email: string; phone: string; message: string }
 const EMPTY: FormState = { firstName: '', lastName: '', email: '', phone: '', message: '' }
@@ -14,7 +15,10 @@ const NEARBY = [
 ]
 
 export default function Riverton() {
-  useEffect(() => { document.title = 'Riverton Utah Real Estate | Homes for Sale in Riverton UT | Tommy Wolf REALTOR®' }, [])
+  usePageMeta(
+    'Riverton Real Estate | Tommy Wolf, Daybreak REALTOR®',
+    'Riverton, Utah real estate: established neighborhoods, strong schools, and easy access to Salt Lake City and the ski resorts. REALTOR® Tommy Wolf.'
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({})

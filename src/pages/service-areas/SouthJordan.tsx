@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../../components/FadeSection'
 import ImagePlaceholder from '../../components/ImagePlaceholder'
 import { saveLead, formatPhone, validateEmail } from '../../lib/leads'
+import { usePageMeta } from '../../hooks/usePageMeta'
 
 interface FormState { firstName: string; lastName: string; email: string; phone: string; message: string }
 const EMPTY: FormState = { firstName: '', lastName: '', email: '', phone: '', message: '' }
@@ -14,7 +15,10 @@ const NEARBY = [
 ]
 
 export default function SouthJordan() {
-  useEffect(() => { document.title = 'South Jordan Utah Real Estate | Tommy Wolf REALTOR®' }, [])
+  usePageMeta(
+    'South Jordan Real Estate | Tommy Wolf, Daybreak REALTOR®',
+    "South Jordan, Utah real estate: strong schools, new construction, and I-15 and TRAX access. Buyer and seller representation from REALTOR® Tommy Wolf."
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({})

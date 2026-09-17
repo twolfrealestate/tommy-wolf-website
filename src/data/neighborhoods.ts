@@ -10,6 +10,7 @@ export interface NeighborhoodConfig {
   hoa: string
   priceRange: string
   extraBadge: string
+  metaDescription: string
 }
 
 const neighborhoods: NeighborhoodConfig[] = [
@@ -40,6 +41,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: "DCA Master: $433.50/quarter (2026). Founder's Village Phase 1 homes pay $334.50/quarter (internet not included). Confirm which phase before purchase. Some condos/townhomes have sub-association fees — verify at homewisedocs.com.",
     priceRange: '$350K–$1.1M+',
     extraBadge: 'All Resale',
+    metaDescription: "Founders Park Village is Daybreak's original 2004 neighborhood in South Jordan, UT. Craftsman and Victorian resale homes, $350K–$1.1M+, walkable to SoDa Row and TRAX.",
   },
   {
     name: 'Eastlake Village',
@@ -68,6 +70,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. Some townhomes carry sub-association fees. Verify at homewisedocs.com.',
     priceRange: '$500K–$1.2M+',
     extraBadge: 'Primarily Resale',
+    metaDescription: "Eastlake Village sits on Oquirrh Lake's eastern shore in Daybreak, South Jordan. Estate homes $500K–$1.2M+, Promenade Park pool, tennis, and beach access.",
   },
   {
     name: 'North Shore Village',
@@ -96,6 +99,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. North Shore Townhomes sub-assoc: $825/quarter ($275/month) — exterior maintenance, landscaping, snow, insurance, reserves. 20 lots carry additional $25/month garbage removal BSA. Verify at homewisedocs.com.',
     priceRange: '$380K–$750K',
     extraBadge: 'Mix Resale/New',
+    metaDescription: "North Shore Village is Daybreak's most affordable lakeside neighborhood in South Jordan, UT. Townhomes and homes $380K–$750K, walkable to Harmons and Brookside Park.",
   },
   {
     name: 'Lake Village',
@@ -124,6 +128,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. Lake Village Boathouse BSA: $33/quarter additional (specific lots — verify). Lake Village Townhomes sub-assoc: $876/quarter ($292/month). Lake Village Condos: contact Treo (801) 355-1136. Verify at homewisedocs.com.',
     priceRange: '$450K–$1.2M+',
     extraBadge: 'Mix Resale/New',
+    metaDescription: "Lake Village offers waterfront and water-view homes on Oquirrh Lake's western shore in Daybreak, South Jordan. $450K–$1.2M+, Waterside Club boathouse access.",
   },
   {
     name: 'Creekside Village',
@@ -152,6 +157,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. Creekside Townhomes sub-assoc: $717/quarter ($239/month). Verify at homewisedocs.com.',
     priceRange: '$430K–$800K',
     extraBadge: 'All Resale',
+    metaDescription: 'Creekside Village in Daybreak, South Jordan centers on 15-acre Brookside Park. Resale homes $430K–$800K from multiple builders, with TRAX North Station nearby.',
   },
   {
     name: 'Garden Park',
@@ -180,6 +186,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: "DCA Master: $433.50/quarter (separate). Garden Park Clubhouse: $180/quarter ($60/month). SF Sub-Assoc: $246/quarter → total $426/quarter ($142/month). Townhome: $795/quarter → total $975/quarter ($325/month). Condos: $1,161/quarter → total $1,341/quarter ($447/month). NOTE: Condo owners have THREE separate assessment payments. Verify at homewisedocs.com.",
     priceRange: '$350K–$900K+',
     extraBadge: '55+ Only',
+    metaDescription: "Garden Park is Utah's largest 55+ active adult community, in Daybreak, South Jordan. Ivory Homes condos to estates, $350K–$900K+, private 14,000 sq ft clubhouse.",
   },
   {
     name: 'SoDa Row',
@@ -208,6 +215,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. SoDa Row Townhomes sub-assoc: $699/quarter ($233/month). 20 lots carry $25/month garbage removal BSA. Verify at homewisedocs.com.',
     priceRange: '$400K–$700K',
     extraBadge: 'Mix Resale/New',
+    metaDescription: "SoDa Row is Daybreak's walkable urban core in South Jordan, UT. Modern townhomes and condos $400K–$700K, steps from dining, shops, and the Oquirrh Lake Beach Club.",
   },
   {
     name: 'South Station Village',
@@ -236,6 +244,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. South Station Townhomes sub-assoc: $639/quarter ($213/month). Verify at homewisedocs.com.',
     priceRange: '$400K–$650K',
     extraBadge: 'Newer / Active Building',
+    metaDescription: "South Station Village is Daybreak's transit-oriented townhome neighborhood in South Jordan. $400K–$650K, steps from TRAX and the Salt Lake Bees ballpark.",
   },
   {
     name: 'Highland Park Village',
@@ -264,6 +273,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA: $433.50/quarter. Highland Park Townhomes sub-assoc: $642/quarter ($214/month). Single-family typically DCA only. Verify at homewisedocs.com.',
     priceRange: '$475K–$900K',
     extraBadge: 'Mix Resale/New',
+    metaDescription: "Highland Park Village is Daybreak's first Upper Village in South Jordan, UT. Homes $475K–$900K with The Loop bike highway, The Hub pool, and Trail Crossing shopping.",
   },
   {
     name: 'Heights Park Village',
@@ -292,6 +302,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: "DCA: $433.50/quarter. Heights Park Townhomes by Holmes BSA: $636.33 + $433.50 = ~$1,069.83/quarter (~$356.61/month). Heights Park by Sego BSA: $507.90 + $433.50 = ~$941.40/quarter (~$313.80/month). SF typically DCA only. Verify at homewisedocs.com.",
     priceRange: '$425K–$850K',
     extraBadge: 'Mix Resale/New',
+    metaDescription: 'Heights Park Village offers elevated Oquirrh Lake and Wasatch views in Daybreak, South Jordan. Homes and twin homes $425K–$850K with The Loop trail access.',
   },
   {
     name: 'SpringHouse Village',
@@ -320,6 +331,7 @@ const neighborhoods: NeighborhoodConfig[] = [
     hoa: 'DCA Master: $433.50/quarter (separate). SpringHouse Dues: $610.50/quarter. Reserve Contribution: $63/quarter. Total sub-assoc: $673.50/quarter ($224.50/month). Optional Insurance Assessment (36 units): $81/quarter ($27/month). Verify at homewisedocs.com.',
     priceRange: '$400K–$700K+',
     extraBadge: '55+ Only',
+    metaDescription: "SpringHouse Village is Daybreak's 55+ community west of Bangerter in South Jordan, UT. OakwoodLife homes $400K–$700K+, private clubhouse, pool, and fitness center.",
   },
 ]
 

@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FadeSection from '../../components/FadeSection'
 import ImagePlaceholder from '../../components/ImagePlaceholder'
 import { saveLead, formatPhone, validateEmail } from '../../lib/leads'
+import { usePageMeta } from '../../hooks/usePageMeta'
 
 interface FormState { firstName: string; lastName: string; email: string; phone: string; message: string }
 const EMPTY: FormState = { firstName: '', lastName: '', email: '', phone: '', message: '' }
@@ -14,7 +15,10 @@ const NEARBY = [
 ]
 
 export default function DaybreakArea() {
-  useEffect(() => { document.title = 'Daybreak Utah Real Estate | Buy a Home in Daybreak South Jordan | Tommy Wolf REALTOR®' }, [])
+  usePageMeta(
+    'Daybreak Real Estate | Tommy Wolf, Daybreak REALTOR®',
+    'Daybreak real estate in South Jordan, Utah. Oquirrh Lake, 50+ miles of trails, SoDa Row, and Downtown Daybreak, from a REALTOR® who lives in the community.'
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({})

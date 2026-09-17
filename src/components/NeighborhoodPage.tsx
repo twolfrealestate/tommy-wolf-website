@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import FadeSection from './FadeSection'
 import ImagePlaceholder from './ImagePlaceholder'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
+import { usePageMeta } from '../hooks/usePageMeta'
 import type { NeighborhoodConfig } from '../data/neighborhoods'
 
 interface FormState {
@@ -11,6 +12,8 @@ interface FormState {
 const EMPTY: FormState = { firstName: '', lastName: '', email: '', phone: '', message: '' }
 
 export default function NeighborhoodPage({ config }: { config: NeighborhoodConfig }) {
+  usePageMeta(`${config.name} | Daybreak Neighborhood Guide`, config.metaDescription)
+
   const imgSrc = `/neighborhoods/${config.slug}.png`
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<FormState>>({})

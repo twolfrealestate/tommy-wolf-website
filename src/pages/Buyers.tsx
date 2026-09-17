@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import FadeSection from '../components/FadeSection'
 import { saveLead, formatPhone, validateEmail } from '../lib/leads'
+import { usePageMeta } from '../hooks/usePageMeta'
 
 const BUYER_SERVICES = [
   { icon: '🎯', title: 'Needs Assessment',                          desc: 'A real conversation about your goals, timeline, budget, and lifestyle before we ever tour a home.' },
@@ -143,9 +144,10 @@ const EMPTY: FormState = {
 }
 
 export default function Buyers() {
-  useEffect(() => {
-    document.title = 'Buyer Resources | Tommy Wolf REALTOR®'
-  }, [])
+  usePageMeta(
+    'Buying a Home in Daybreak | Tommy Wolf, Daybreak REALTOR®',
+    'Buying in Daybreak or South Jordan? Neighborhood guidance, curated MLS search, offer strategy, and a full buyer FAQ from resident REALTOR® Tommy Wolf.'
+  )
 
   const [form, setForm] = useState<FormState>(EMPTY)
   const [errors, setErrors] = useState<Partial<FormState>>({})
