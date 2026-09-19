@@ -541,6 +541,67 @@ const bodies: Record<string, string> = {
   <p>Two homes on the same street can sit in completely different fee structures. Send me the address and I will pull the layers that apply and show you the all-in monthly cost next to the mortgage payment. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'downsizing-in-daybreak-south-jordan': `<p>I live in Garden Park, and downsizing is a conversation I have with Daybreak homeowners more often than almost any other. It almost never opens with square footage. It opens with stairs. Or a health change. Or a spouse who passed. Or adult children trying to help a parent make a decision nobody planned for.</p>
+
+<p>Downsizing is a decision about what the next chapter looks like, and whether the housing, financial, legal, and family pieces are in place before you need them. The house is one piece, and usually not the first one.</p>
+
+<h2>📝 Start With Two Lists, Not a Listing</h2>
+
+<p>Before you open a property search, write down two things.</p>
+
+<p>What do I want less of? Usually stairs, yard work, bedrooms nobody has slept in for a decade, repairs, cleaning, a mortgage payment, and forty years of accumulated belongings.</p>
+
+<p>What do I want more of? Travel. Walkability. Time with family. Predictable monthly expenses. Being closer to healthcare. A home you can actually move around in as you age.</p>
+
+<p>Those two lists define the home you are looking for, and they stop you from buying something smaller that solves none of the original problems.</p>
+
+<p>Downsizing in Daybreak also does not mean giving up the parks, the pools, the trails, or Oquirrh Lake. The Daybreak amenities you already pay for stay available.</p>
+
+<h2>🏘️ The Downsizing Spectrum, and the Cost Trap Inside It</h2>
+
+<p>There is no single downsizing home. There is a spectrum.</p>
+
+<p>At one end is the family home you are in now. Next is a smaller, lower maintenance home in the same community, which for many people means one of the Daybreak townhomes for sale rather than another detached house. Then 55+ active adult living, which Daybreak offers in SpringHouse Village: main floor primary suites, low maintenance exteriors, and a private clubhouse with a pool, fitness programming, and trail access. At the far end is senior living, for when more support makes sense.</p>
+
+<p>If you are still deciding where in the community to land, <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">our village-by-village breakdown of all 12 Daybreak villages</a> is the fastest way to narrow the list before you start touring.</p>
+
+<p>Here is where people miscalculate. Smaller does not automatically mean cheaper. Compare the purchase price against the master HOA fee, any sub-association fees, the maintenance you still own, property taxes, insurance, and whether the home works for you fifteen years from now. Daybreak has a master association and, in many cases, a sub-association layered on top. We published <a href="/daybreak-newsletter/daybreak-hoa-fees-2026">the full 2026 breakdown of what Daybreak homeowners actually pay each month</a>, and the spread between a detached home and an attached one is wider than most people expect. Pull the governing documents and get the real monthly number before you commit to a floor plan.</p>
+
+<h2>🔑 Judge the Home by Who You Will Be at Eighty</h2>
+
+<p>The home that works beautifully today may not be the home you want in twenty years.</p>
+
+<p>Ask the specific questions. Where is the primary bedroom? Are there steps at the entry? Are the doorways wide enough? Who is shoveling that driveway in ten years? How far is family, and how far is your doctor?</p>
+
+<p>The features that matter are simple: zero step entry, main floor bedroom, walk in shower, wide doorways, and outdoor space you can manage yourself.</p>
+
+<p>Living in Daybreak Utah helps here. The trails and sidewalks make it genuinely walkable, and the Red Line TRAX station connects toward Salt Lake City and the University of Utah, which matters once driving gets harder.</p>
+
+<h2>🩺 Downsizing and Assisted Living Are Different Questions</h2>
+
+<p>These get blended together constantly. They should not be.</p>
+
+<p>Moving into a smaller home or a 55+ neighborhood assumes independent living. Assisted living answers a different question: does this person need ongoing help with daily activities or personal care? Medication management, bathing and dressing, meals, mobility, cognitive changes, isolation, and how much weight is falling on a single family caregiver.</p>
+
+<p>There are senior care options around South Jordan. Sagewood at Daybreak is relevant locally because it offers independent living, assisted living, and memory care on one campus, so a move does not have to mean moving again later. Tour the options and ask about licensing, staffing levels, what care they provide as needs change, real monthly cost, and what the contract commits you to. Proximity alone is not a reason to choose one.</p>
+
+<h2>📋 Get the Legal Work Done First, and Do It in This Order</h2>
+
+<p>A downsize is one of the best triggers for an estate plan review. Sit down with qualified Utah legal and financial professionals and go through the will or trust, beneficiary designations, how the real estate is titled, the financial power of attorney, the healthcare directive, insurance, and where it is stored.</p>
+
+<p>In Utah, financial authority and healthcare decisions are handled separately, so one document does not cover both. Utah's Advance Health Care Directive is the mechanism for naming someone to make healthcare decisions if you cannot make or communicate them yourself.</p>
+
+<p>For families dealing with a home after a parent has passed, the first question is not how fast can we list it. It is who legally has authority to sell it. Utah's small estate affidavit process cannot transfer a house or land, so if real property is involved, that shortcut is off the table. Talk to a qualified Utah probate attorney early, because the legal timeline usually drives the listing timeline.</p>
+
+<p>Then run it in this sequence: define the housing and care needs, meet with the estate, legal, and financial professionals, set the budget for the next home, sort belongings and prepare the current property, coordinate the sale and the move, then transfer utilities, insurance, HOA responsibilities, and records.</p>
+
+<p>Doing this in order buys you leverage. Out of order, a legal issue, a care need, or an unfinished repair sets your timeline for you. If selling the current house is part of the plan, current Daybreak home values anchor every budget decision that follows, so get that number early.</p>
+
+<div class="cta-block">
+  <h3>Thinking About Downsizing in Daybreak?</h3>
+  <p>Whether you are planning your own move or helping a parent work through one, the first step is knowing what the current home is worth. I am not an attorney, a financial adviser, or a healthcare provider. I coordinate the real estate side and help you get the right people in the room. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
