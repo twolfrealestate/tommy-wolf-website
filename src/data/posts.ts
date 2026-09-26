@@ -602,6 +602,63 @@ const bodies: Record<string, string> = {
   <p>Whether you are planning your own move or helping a parent work through one, the first step is knowing what the current home is worth. I am not an attorney, a financial adviser, or a healthcare provider. I coordinate the real estate side and help you get the right people in the room. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'draper-surf-park-daybreak-home-values': `<p>Landlocked Draper is getting waves. In June, the Draper City Council approved an amended master plan for Veranda West that adds an 8.8-acre surf park between the FrontRunner tracks and Bangerter Highway, just west of I-15. Developers are targeting a 2028 opening. For anyone watching Daybreak home values, the natural question is whether a project like this matters out here, a short drive down Bangerter. Nobody can answer that with certainty, but other markets that built around big water amenities offer some useful clues.</p>
+
+<h2>🌊 What's Actually Planned at Veranda West</h2>
+
+<p>This isn't a community pool. The Veranda West plan pairs the surf park with 418 residential units, including more than 100 townhomes that are already built and nearly 300 planned apartments, plus a retail village with restaurants. The surf park replaces office space that was originally planned for the roughly 31-acre site.</p>
+
+<p>The wave pool is designed to produce consistent, adjustable waves for every skill level, and developers say it could serve as a training venue for Olympic surf teams. Plans also call for wellness amenities, cabanas, dining and event programming.</p>
+
+<p>That mix matters. A standalone attraction pulls traffic in and out. A surf park wrapped in housing, dining and events is built to keep people around, which is the kind of setup that shapes a neighborhood's reputation over time.</p>
+
+<p>A few things are still in motion. Developers said in June that construction could begin this fall, but final site plans, permits and traffic approvals still had to clear review at that point. The city attached conditions on operating hours and noise, and later phases require traffic improvements, including a new signal at 600 West. Water use drew questions from residents too. The applicants described a one-time fill of about 4 million gallons with a recirculating system after that.</p>
+
+<h2>📊 What Surf and Lagoon Communities Have Shown</h2>
+
+<p>A few out-of-state projects offer comparisons, with one caveat up front: most of the published numbers come from developers and amenity vendors, so read them as sales pitches backed by some real data, not independent studies.</p>
+
+<p>At Epperson, a master-planned community near Tampa built around a swimmable lagoon, model home sales rose 21% over a seven-month pre-construction window while nearby competing communities grew 1% to 5%, according to industry trade reporting. The lagoon's builder markets that same figure as a price increase, which is a stretch from what the trade press actually reported. The more useful lesson is timing. Buyers moved before the amenity existed.</p>
+
+<p>Balmoral, a lagoon community outside Houston, posted one of the biggest sales jumps in the country after its lagoon was announced. That proves buyer demand, not price growth. Sales volume and appreciation are two different things.</p>
+
+<p>Near Santa Cruz, academic research found homes closer to high-quality surf breaks sold at a measurable premium. That's natural ocean surf, not a man-made wave pool, but it supports the idea that buyers pay for access to something they value.</p>
+
+<p>Proximity cuts both ways, though. The same draw that attracts buyers can also bring:</p>
+
+<ul>
+  <li>Heavier traffic on Bangerter and nearby roads during events and peak season</li>
+  <li>Noise from operations, crowds and programming</li>
+  <li>Years of construction before anything opens</li>
+  <li>A steady stream of visitors in an area that used to be quiet</li>
+</ul>
+
+<p>Epperson and Balmoral also differ from Veranda West in one big way. Their lagoons sit at the center of residential communities. Draper's surf park is a commercial venue built to draw visitors from across the region. The homes most likely to benefit are the ones with easy access to it that don't sit directly in its traffic path.</p>
+
+<h2>📍 What This Means for Daybreak Home Values</h2>
+
+<p>The surf park likely won't move Daybreak values directly. What it does is add to the list of reasons people are choosing the south valley, alongside the ongoing development around Point of the Mountain. More regional demand tends to support Daybreak real estate trends over the long run, even when the headline project sits in another city.</p>
+
+<p>Daybreak also already shows what a well-planned water amenity does for a community. Oquirrh Lake sits at the center of Daybreak, and lake access is one of the first things buyers ask about. If you want to see how that plays out by location, <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">our village-by-village guide</a> groups every village by lake access, schools and price point.</p>
+
+<p>The Veranda West pattern will look familiar to anyone living in Daybreak, Utah. Amenities that give people a reason to stay close to home tend to shape how an area is valued, which is the same dynamic we've been tracking with <a href="/daybreak-newsletter/downtown-daybreak-new-restaurants-businesses">the new restaurants and businesses opening in Downtown Daybreak</a>.</p>
+
+<p>If other markets are any guide, the reaction shows up well before 2028. Here's what I'll be watching over the next couple of years:</p>
+
+<ul>
+  <li>Sales volume and days on market near Veranda West compared to the rest of Draper</li>
+  <li>Whether nearby new construction starts marketing the surf park as a selling point</li>
+  <li>Traffic and access changes along Bangerter and 600 West</li>
+  <li>How the surf park fits with the rest of the Point of the Mountain buildout</li>
+</ul>
+
+<p>For Daybreak sellers, the practical takeaway is to keep an eye on new townhome and apartment supply at Veranda West, since some buyers will compare those options directly with Daybreak townhomes. For buyers, it's one more amenity within reach of the Daybreak housing market, not a reason to rush.</p>
+
+<div class="cta-block">
+  <h3>Wondering What South Valley Growth Means for Your Home?</h3>
+  <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. I track projects like Veranda West so you don't have to guess. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
