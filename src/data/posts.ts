@@ -659,6 +659,45 @@ const bodies: Record<string, string> = {
   <p>Whether you're thinking about buying, selling, or just want to know what your home is worth right now, Tommy Wolf is here to help. I track projects like Veranda West so you don't have to guess. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-home-sales-september-2026': `<p>Sixty-two homes closed in Daybreak in September 2026. That's four fewer than August, but the total hides a bigger shift. Single family sales fell by a quarter, and townhome and condo sales rose by a third. If you're buying or selling in the South Jordan housing market this fall, that split matters more than the headline number.</p>
+
+<p>Total volume has eased gradually heading into fall, from 68 closings in July to 66 in August and 62 in September. That's a normal seasonal slowdown, not a sign of buyers pulling back. Here's what the Daybreak home sales September 2026 data shows.</p>
+
+<h2>🏡 Single Family Homes: Fewer Sales, Steady Value</h2>
+
+<p>Thirty-four single family homes sold in September, down from 45 in August. The median sale price was $637,450, compared with $663,000 in <a href="/daybreak-newsletter/daybreak-utah-market-report-august-2026">our August market report</a>.</p>
+
+<p>That looks like a price drop until you check price per square foot. It came in at $227, exactly where it was in August. Buyers paid the same for each square foot. The median fell because a different mix of homes sold, with fewer large houses closing this month.</p>
+
+<p>This is why a single median can mislead. When a handful of larger homes close one month and smaller ones close the next, the median swings even if every individual home is worth what it was. Price per square foot strips out most of that noise, which makes it the better gauge of where Daybreak real estate trends are actually heading.</p>
+
+<p>Homes took a median of 41 days to sell. Twenty of the 34 closed at or above list price, and nine sold above asking. A home on Lake Avenue closed $30,000 over its list price after 13 days on the market. At the top end, a six-bedroom home on Lake Island Drive sold for $1,175,000. The lowest single family sale was $460,000 on Scout Plane Lane.</p>
+
+<h2>🏘️ Townhomes and Condos: The Busier Segment</h2>
+
+<p>Twenty-eight townhomes and condos sold in September, up from 21 in August. The median price was $479,990 at $242 per square foot.</p>
+
+<p>A big piece of that volume came from new construction on Lake Run Road, where seven townhomes closed in a single month. Downtown Daybreak added three more, including the month's top attached sale at $670,972 on Center Field Drive. The lowest was a $314,900 condo on Open View Lane, one of the few ways into Daybreak under $350,000.</p>
+
+<p>Attached homes took longer to sell, with a median of 58 days compared with 48 in August. Still, 21 of the 28 closed at or above list. Buyers have more time to compare units, but correctly priced homes are not sitting.</p>
+
+<p>Per-foot pricing for attached homes cooled from August's $275 to $242. A heavier share of new, larger townhomes on Lake Run Road pulled that number down, so read it as a mix change rather than a market correction.</p>
+
+<h2>📊 What This Means for Buyers and Sellers</h2>
+
+<p>For sellers, September rewarded accurate pricing. Across both segments, 41 of 62 homes sold at or above list. The homes that took 80 to 120 days were mostly ones that started high and reduced, the same pattern we broke down in <a href="/daybreak-newsletter/overpricing-biggest-mistake-daybreak-sellers">why overpricing costs Daybreak sellers</a>. If you're thinking about selling a home in Daybreak before winter, pricing at the recent closed comps on your street matters more than any seasonal timing.</p>
+
+<p>For buyers, the attached segment is where the options are. More inventory is closing, days on market are longer, and new construction on Lake Run Road and in Downtown Daybreak gives you choices among Daybreak homes for sale that you didn't have in the spring. Single family buyers face tighter supply, so expect less room to negotiate on well-priced homes.</p>
+
+<p>For current residents, the steady $227 per square foot is the number to watch. Your home's value held through September. If you're planning to list in the spring, use the next few months to handle repairs and small updates, then price off whatever has closed nearby when you're ready. Comps from this fall will be a starting point, not the final word.</p>
+
+<p>Keep in mind that a community-wide median doesn't tell you what a specific home on a specific block will bring. Prices vary between Garden Park, Springhouse, Downtown Daybreak, and the newer villages west of the lake.</p>
+
+<div class="cta-block">
+  <h3>Get the Numbers for Your Street</h3>
+  <p>If you want to know what your home would sell for right now, or which part of Daybreak fits your budget, reach out. I'll pull the closed sales for your street and walk you through them. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
