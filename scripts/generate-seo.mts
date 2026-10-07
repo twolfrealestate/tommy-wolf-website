@@ -20,6 +20,7 @@ import { fileURLToPath } from 'url'
 
 import neighborhoods from '../src/data/neighborhoods.ts'
 import features from '../src/data/features.ts'
+import daybreakFaq from '../src/data/daybreakFaq.ts'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
@@ -163,7 +164,7 @@ const STANDALONE_PAGES: StandalonePage[] = [
     path: '/daybreak-faq',
     title: 'Daybreak FAQ',
     description:
-      "Everything buyers and sellers need to know about Daybreak, Utah's largest master-planned community. Covers HOA fees and what they include, Oquirrh Lake, the trail network, schools, builders, and community events.",
+      "Answers to common questions about Daybreak, Utah's largest master-planned community: HOA structure, assessments and fees, amenities, community rules, schools, and transit. Also answers general home buying questions: whether now is a bad time to buy, how much to put down, buying with student loans, how to tell if a house is overpriced, credit scores, hidden costs, and where first-time buyers should start.",
     priority: '0.8',
     changefreq: 'monthly',
     section: 'main',
@@ -455,6 +456,22 @@ function buildLlmsFullTxt(): string {
     lines.push('')
     lines.push(p.description)
     lines.push('')
+  })
+  lines.push('---')
+  lines.push('')
+
+  lines.push('## DAYBREAK FAQ: QUESTIONS AND ANSWERS')
+  lines.push('')
+  lines.push(`URL: ${BASE_URL}/daybreak-faq`)
+  lines.push('')
+  daybreakFaq.forEach((section) => {
+    lines.push(`### ${section.title}`)
+    lines.push('')
+    section.items.forEach((item) => {
+      lines.push(`Q: ${item.q}`)
+      lines.push(`A: ${item.a}`)
+      lines.push('')
+    })
   })
   lines.push('---')
   lines.push('')
