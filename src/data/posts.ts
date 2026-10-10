@@ -698,6 +698,54 @@ const bodies: Record<string, string> = {
   <p>If you want to know what your home would sell for right now, or which part of Daybreak fits your budget, reach out. I'll pull the closed sales for your street and walk you through them. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-list-to-sale-ratio-trends': `<p>Your neighbor may have gotten full price. That doesn't mean you will. If you're planning to sell your home in Daybreak, one number tells you more about your odds than any headline about the market: the list-to-sale ratio.</p>
+
+<h2>📊 What the List-to-Sale Ratio Tells Daybreak Sellers</h2>
+
+<p>The list-to-sale ratio shows how close homes are selling to their asking price. Divide the sold price by the list price and multiply by 100. A home listed at $600,000 that closes at $594,000 has a ratio of 99%.</p>
+
+<p>The list-to-sale ratio Daybreak sellers are seeing right now sits close to that mark. In August, 66 homes closed in Daybreak at 98.9% of list price, and 35 of them sold at or above asking. In September, 62 homes closed and 41 sold at or above asking.</p>
+
+<p>That second number is the trend to watch. The share of homes selling at or above list went from 53% in August to 66% in September. A ratio just under 100% tells you bidding wars are not the norm. It also tells you more sellers are getting their price.</p>
+
+<p>One caution when you see this stat anywhere. The ratio can be measured against a home's original list price or against its final list price after reductions. A home that drops its price three times and then sells at the last number looks like a full-price sale on paper. It wasn't. Always ask which version you're looking at.</p>
+
+<h2>📈 What a Rising or Slipping Ratio Means for Your Price</h2>
+
+<p>When the ratio climbs, buyers are paying closer to asking. There is less room to negotiate and more leverage for the seller. You can list at true market value and expect offers to land near it.</p>
+
+<p>When it slips, buyers gain the upper hand. Offers come in lower, requests for concessions go up, and homes that start too high get skipped. That's when pricing strategy matters most.</p>
+
+<p>So is it a good time to sell in Daybreak? The current numbers say yes, with a condition. A market running near 99% rewards homes priced accurately. It does not reward a cushion. At 99%, a $650,000 list price points to a sale around $643,500. If you list at $650,000 hoping to land at $650,000 after negotiating down from something higher, the math is working against you. Buyers in the Daybreak housing market have enough choices to wait out a listing that starts too high.</p>
+
+<p>Two recent Daybreak sales show the gap. One home was priced right from day one and sold in 7 days. Another started too high and sat for 68 days, with three price cuts along the way. For context, the September figure for single-family homes was 41 days on market, and 58 for townhomes and condos. The first seller beat both numbers by more than a month. The second ran past both and chased the market down the whole way.</p>
+
+<p>A price cut doesn't reset the clock. The days keep counting, buyers notice, and the next offer usually reflects it. I covered the mechanics in <a href="/daybreak-newsletter/overpricing-biggest-mistake-daybreak-sellers">why overpricing costs Daybreak sellers more than they expect</a>. The short version: days on market in Daybreak are a signal buyers read closely, and a long count weakens your position before the next showing even happens.</p>
+
+<h2>🏘️ Every Daybreak Village Has Its Own Number</h2>
+
+<p>A community-wide ratio is an average, and averages hide a lot. September is a good example. Among single-family homes, 20 of 34 sold at or above list, about 59%. Among townhomes and condos it was 21 of 28, or 75%.</p>
+
+<p>That doesn't mean attached homes are the hotter segment. Those results were driven by seven new-construction closings on Lake Run Road and three more in Downtown Daybreak, and builder sales tend to close at or near list price. A resale townhome owner who prices off that 75% figure is reading the wrong number.</p>
+
+<p>The same thing happens by location. A home near Oquirrh Lake, a townhome by SoDa Row, and a newer build on the west side draw different buyers and face different competition, including from builders. If you want a refresher on how the villages differ, start with <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">my breakdown of all 12 Daybreak villages</a>.</p>
+
+<p>As a Garden Park resident, I track this data street by street, not just community-wide. Before you set a price, here is what I look at:</p>
+
+<ul>
+  <li>Closed sales from the last 90 days for your home type in your village, not all of Daybreak.</li>
+  <li>Sold price against the original list price, so reductions don't hide in the math.</li>
+  <li>How many days each of those homes took, and how many needed a price cut to get there.</li>
+  <li>Active competition, including any new construction a buyer could choose instead.</li>
+</ul>
+
+<p>Those four things tell you how aggressively or conservatively to price your listing. They also tell you far more about Daybreak home values on your street than a single community-wide percentage. A good Daybreak Realtor should walk you through all of it before you sign a listing agreement.</p>
+
+<div class="cta-block">
+  <h3>Want to Know Where Your Home Stands?</h3>
+  <p>I'll pull today's numbers for your specific street and home type and build the right pricing strategy with you. Whether you're selling this fall or just want to know what your home is worth right now, reach out directly. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
