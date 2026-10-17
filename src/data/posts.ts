@@ -746,6 +746,47 @@ const bodies: Record<string, string> = {
   <p>I'll pull today's numbers for your specific street and home type and build the right pricing strategy with you. Whether you're selling this fall or just want to know what your home is worth right now, reach out directly. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'best-time-to-sell-house-utah-seasons': `<p>Picture two identical homes on the same Daybreak street. Same floor plan, same upgrades, same list price. One hits the market in January. The other goes live in late April. Those two homes can end up with very different showing counts, offer terms, and days on market.</p>
+
+<p>That isn't luck. The Daybreak housing market runs on a calendar, and knowing where you are on that calendar is one of the most useful pricing tools a seller has.</p>
+
+<h2>📅 Why Utah Home Pricing Moves With the Seasons</h2>
+
+<p>A home's value isn't set by square footage and finishes alone. Price comes down to what buyers are willing to pay at a given moment, and that shifts with three things: how urgent buyers feel, how much inventory they can choose from, and how the timing fits their lives.</p>
+
+<p>In South Jordan, timing is tied closely to the school year, the weather, and the holidays. Families moving into Daybreak often want to be settled before Jordan School District starts in August. Snow and short days slow showings in winter. Year-end tax and job relocation deadlines push some buyers to act in November and December. Each of those pressures changes the balance between buyers and sellers, and that balance is what moves Daybreak home values month to month.</p>
+
+<h2>❄️ Winter and Early Spring: The Quiet Start</h2>
+
+<p>Winter is the slowest stretch. Fewer buyers are touring, and fewer homes are listed. That cuts both ways. Sellers face less competition, but they also need more patience, because the buyer pool is smaller.</p>
+
+<p>Things shift in March and April. New listings start climbing, and buyers who sat out the winter come back before the spring rush fully hits. Listing in early spring can put your home in front of motivated buyers before the market fills up with competing inventory.</p>
+
+<h2>☀️ Late Spring and Summer: Peak Season, Peak Competition</h2>
+
+<p>Late spring is the hot zone. Around Daybreak, lawns are green, the trees along the village paths have filled in, and Oquirrh Lake looks its best. Curb appeal does a lot of the work for you, showings spike, and well-prepared homes tend to draw the strongest offers.</p>
+
+<p>Summer keeps activity high, but the dynamic changes. More sellers list, so buyers have more options. Families are working against the school calendar, which adds urgency, but your home is also sitting next to more competition. Pricing and presentation have to be sharp to stand out.</p>
+
+<h2>🍂 Fall and Late Fall: The Overlooked Sweet Spot</h2>
+
+<p>Fall is where many sellers underestimate the market. Once school is back in session, casual browsers tend to drop off. The buyers still out there are usually serious: relocating for work, outgrowing a starter home, or tired of waiting. Competition among sellers drops, so a well-priced home gets noticed.</p>
+
+<p>Late fall can heat back up. Some buyers want to close before year-end, whether for tax reasons, a job start date, or simply to be settled before the holidays. That urgency, paired with lighter inventory, can work in a seller's favor.</p>
+
+<p>We're in fall right now. If you've been asking whether it's a good time to sell in Daybreak and assumed spring was your only shot, this season deserves a second look.</p>
+
+<h2>🔑 The Season Matters Less Than the Strategy</h2>
+
+<p>Every season has an upside. What separates an average result from a strong one is pricing for the conditions you're actually facing, not the ones from six months ago, and getting your home in front of the buyers who are active that month. A listing priced for last spring's market in the middle of October tends to sit, and <a href="/daybreak-newsletter/overpricing-biggest-mistake-daybreak-sellers">overpricing is the most common reason Daybreak homes stall</a> no matter the season.</p>
+
+<p>That means looking at what's happening in your specific village or South Jordan neighborhood: how many homes are competing with yours, how fast they're selling, and how buyers are responding to price. Daybreak's villages don't all move in lockstep, which is why <a href="/daybreak-newsletter/daybreak-neighborhood-guide-12-villages">our village-by-village breakdown</a> is a useful starting point before you set a number. Market-wide headlines rarely tell you what days on market look like on your street.</p>
+
+<div class="cta-block">
+  <h3>Thinking About Selling in Daybreak?</h3>
+  <p>The right price depends on the season you list in and the street you live on. Tommy Wolf can walk you through what's happening in your neighborhood right now and build a plan around your timing. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
