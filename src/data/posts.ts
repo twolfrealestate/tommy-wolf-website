@@ -787,6 +787,57 @@ const bodies: Record<string, string> = {
   <p>The right price depends on the season you list in and the street you live on. Tommy Wolf can walk you through what's happening in your neighborhood right now and build a plan around your timing. Reach out directly, no pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'cash-offer-vs-financed-offer-daybreak': `<p>You listed your home near Oquirrh Lake, or on a quiet street in Garden Park, and two offers came in the same weekend. One buyer is paying cash. The other is financing with a lender, and that offer is a little higher. If you're getting ready to sell your home in Daybreak, this is a scenario worth thinking through before it happens.</p>
+
+<p>A lot of sellers default to cash because it feels like the sure thing. Sometimes it is. But the offer with the most certainty and the offer with the highest net aren't always the same one, and the only way to know which wins is to compare the whole picture.</p>
+
+<h2>💵 Why Cash Feels Safer, and What That Certainty Costs</h2>
+
+<p>A cash buyer doesn't need a mortgage approval to close. That removes one of the most common reasons deals fall apart: the buyer's loan doesn't come through.</p>
+
+<p>Cash purchases can also skip the lender-required appraisal that comes with most financed deals. With no lender involved, there's no bank deciding whether your home is worth the contract price before it releases funds. Cash often means a shorter timeline too. If you're relocating, buying your next place in another Daybreak village, or just want the process done, speed has real value.</p>
+
+<p>The catch is that cash buyers know what they bring to the table. Investors and well-funded buyers often expect a discount in exchange for speed and simplicity. A cash offer that looks clean might leave money on the table compared to a strong financed offer. If the gap is small, cash may still be the right call. If the gap is large, you're paying for peace of mind, and you should know exactly how much.</p>
+
+<p>A financed offer isn't automatically weak, either. A preapproval means a lender has tentatively agreed to lend up to a certain amount. It isn't a final loan guarantee, but a well-qualified buyer with a solid lender, a meaningful down payment, and reasonable terms can be every bit as competitive. In the current Daybreak housing market, that matters. In September, 41 of 62 Daybreak closings landed at or above list price, as we covered in <a href="/daybreak-newsletter/daybreak-home-sales-september-2026">our September sales breakdown</a>, and plenty of those buyers were financing.</p>
+
+<h2>📋 The Appraisal Question for Utah Sellers</h2>
+
+<p>This is where financed offers carry the most risk. If the home appraises below the contract price and the buyer has an appraisal contingency, they may be able to renegotiate the price or cancel.</p>
+
+<p>In Utah, the standard Real Estate Purchase Contract sets a financing and appraisal deadline, so that risk has a defined window. Some buyers shrink it further by agreeing to cover an appraisal gap with extra cash, or by limiting how far they can renegotiate if the value comes in short. When strong offers push above list, which helps the list-to-sale ratio in Daybreak but can outrun recent comps, those terms carry real weight.</p>
+
+<p>When you're comparing offers, ask:</p>
+
+<ul>
+  <li>Does the buyer have an appraisal contingency?</li>
+  <li>Have they shown they can cover a gap if one appears?</li>
+  <li>How large a down payment are they bringing?</li>
+</ul>
+
+<p>A financed buyer who can absorb a low appraisal looks a lot like a cash buyer on certainty, often at a better price.</p>
+
+<h2>⚖️ How to Compare Offers on Your Daybreak Home</h2>
+
+<p>Don't stop at the purchase price. Put each offer side by side and look at:</p>
+
+<ul>
+  <li><strong>Expected net proceeds.</strong> Price minus seller-paid closing costs, concessions, and commissions. In Daybreak, include the seller-paid Community Enhancement Fee, which we broke down in <a href="/daybreak-newsletter/daybreak-hoa-fees-2026">our 2026 guide to Daybreak HOA fees</a>.</li>
+  <li><strong>Requested credits.</strong> A higher price with a large closing cost credit can net less than a lower, clean offer.</li>
+  <li><strong>Repair exposure.</strong> How much room does the buyer have to renegotiate after inspection?</li>
+  <li><strong>Closing timeline.</strong> Does it fit your next move?</li>
+  <li><strong>Probability of closing.</strong> Count the realistic ways each buyer could cancel or renegotiate.</li>
+</ul>
+
+<p>The strongest offer is usually the one with the fewest realistic exits, paired with a number you're comfortable with. Sometimes that's cash. Sometimes it's a financed buyer with tight terms and money to cover a gap. Protecting your Daybreak home values means weighing both, not reacting to the word "cash."</p>
+
+<p>Cash may win on certainty. Financing may win on price. The best offer is the combination that delivers the strongest overall outcome for your goals, and a Daybreak Realtor who knows the local comps can help you run those numbers before you sign.</p>
+
+<div class="cta-block">
+  <h3>Weighing Offers on Your Daybreak Home?</h3>
+  <p>Whether you're comparing a cash offer to a financed one or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly for a side-by-side look at net proceeds, appraisal risk, and timeline. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
