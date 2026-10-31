@@ -838,6 +838,55 @@ const bodies: Record<string, string> = {
   <p>Whether you're comparing a cash offer to a financed one or just want to know what your home is worth right now, Tommy Wolf is here to help. Reach out directly for a side-by-side look at net proceeds, appraisal risk, and timeline. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-pre-listing-fixes-under-500': `<p>Walk any Daybreak street and you'll see it. Same builders, similar floor plans, homes built within a few years of each other. That's part of what makes the community work. It also means that when you list one of the many Daybreak South Jordan homes on the market, buyers are comparing yours to the one three doors down with nearly the same layout.</p>
+
+<p>When the square footage and floor plan are a wash, condition decides who gets the showings. The good news is that most of what buyers react to costs less than you'd think. Here's how I'd spend $500 before listing a home in Daybreak or anywhere in South Jordan.</p>
+
+<h2>🌿 Start Outside: Mulch, Landscaping, and Curb Appeal</h2>
+
+<p>Buyers form an opinion before they reach the front door, and your listing photos lead with the exterior. Two fixes cover most of it.</p>
+
+<p><strong>Fresh mulch and bed cleanup.</strong> Pull weeds, trim overgrown shrubs, edge the beds, and lay a fresh layer of dark mulch. Utah sun bleaches and thins mulch fast, so beds that looked fine two summers ago can read as tired in photos. Budget roughly $75 to $150 depending on bed size. Add a few inexpensive flowering plants near the entry if the season allows.</p>
+
+<p><strong>Power wash, windows, and front door.</strong> Rent or borrow a pressure washer for the driveway and front walk. Clean exterior windows on the street-facing side. Then give the front door a fresh coat of paint or a deep clean and new hardware. If you're considering a new door color, check with the Daybreak Community Association first, since exterior changes may need design approval.</p>
+
+<h2>🏡 Inside: Paint, Hardware, and Lighting</h2>
+
+<p>Once buyers step in, they start scanning for signs of upkeep.</p>
+
+<p><strong>Touch-up paint.</strong> Scuffed walls, chipped trim, and dinged baseboards make buyers think about maintenance, and maintenance makes them think about money. You don't need to repaint the house. Grab your existing wall color (or have it matched), and hit hallways, stair walls, and anywhere kids or pets leave marks. A gallon or two and a roller usually covers it.</p>
+
+<p><strong>Cabinet hardware.</strong> Brass knobs and dated pulls are one of the fastest ways a kitchen reads as older than it is. Swapping to modern matte black or brushed nickel pulls takes an afternoon. Bulk packs keep the cost reasonable, but count your cabinets first, since a big kitchen adds up quickly.</p>
+
+<p><strong>One light fixture.</strong> Pick the fixture buyers see first, usually the entry or dining room, and replace it with something current. Then swap any mismatched or dim bulbs throughout the house to the same color temperature. Brighter rooms photograph larger and feel more open in person.</p>
+
+<h2>🔑 The Deep Clean: Highest Impact, Lowest Cost</h2>
+
+<p>If you only do one thing on this list, do this. A truly clean home tells buyers it's been cared for, and that confidence shows up in offers and in how Daybreak home values hold up when a buyer's appraiser walks through.</p>
+
+<p>Focus on kitchens and bathrooms first. Degrease the range hood, clean inside the oven and microwave, scrub grout, polish fixtures, and clear the counters down to one or two items. Then dust baseboards, ceiling fans, and vent covers, and wipe down light switches and door frames. Hiring a professional one-time deep clean is often money well spent if your time is limited.</p>
+
+<h3>How to Split the $500</h3>
+
+<p>Every house is different, but a typical split looks something like this:</p>
+
+<ul>
+  <li>Mulch and plants: $100 to $150</li>
+  <li>Paint and supplies: $50 to $100</li>
+  <li>Cabinet hardware: $75 to $150</li>
+  <li>One light fixture: $75 to $150</li>
+  <li>Cleaning supplies or a partial professional clean: whatever's left</li>
+</ul>
+
+<p>If your landscaping is already sharp, shift that money toward hardware or a pro cleaning. The goal isn't to check every box. It's to fix the things a buyer would notice in the first minute. Condition gets buyers in the door, but the price still has to match, which is why I'd pair this list with <a href="/daybreak-newsletter/overpricing-biggest-mistake-daybreak-sellers">why overpricing is the biggest mistake Daybreak sellers make</a>.</p>
+
+<p>Late fall and winter are a good time to handle the indoor items so you're ready when spring activity picks up in the Daybreak housing market. For more on timing, see <a href="/daybreak-newsletter/best-time-to-sell-house-utah-seasons">our season-by-season guide to selling in Utah</a>.</p>
+
+<div class="cta-block">
+  <h3>Thinking About Selling Your Daybreak Home?</h3>
+  <p>If you're planning to sell your home in Daybreak, I'll walk through it with you, tell you which of these fixes actually matter for your property, and give you a realistic estimate of what it could sell for. No pressure, just real answers from a Daybreak Realtor and neighbor who knows the community inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
