@@ -887,6 +887,55 @@ const bodies: Record<string, string> = {
   <p>If you're planning to sell your home in Daybreak, I'll walk through it with you, tell you which of these fixes actually matter for your property, and give you a realistic estimate of what it could sell for. No pressure, just real answers from a Daybreak Realtor and neighbor who knows the community inside and out.</p>
   <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
 </div>`,
+  'daybreak-home-sales-october-2026': `<p>Walk around Oquirrh Lake this time of year and you'll still see a few "Sold" riders hanging on signs from early fall. October was a busy month for closings, and this Daybreak market update shows a market that rewards sellers who price carefully and gives buyers leverage on homes that have been sitting.</p>
+
+<p>The numbers below come from 39 closed sales in the Wasatch Front MLS between October 1 and 31, 2026. They cover Daybreak subdivisions only, not the full 84009 ZIP code.</p>
+
+<h2>🏡 Single Family Homes: $619,995 Median</h2>
+
+<p>Twenty-six single family homes closed in Daybreak in October. The median sale price was $619,995, and buyers paid a median of $214 per square foot.</p>
+
+<p>The spread was wide. The lowest sale was a three-bedroom SpringHouse home at $535,000. The highest was a new five-bedroom build on Lake Island Drive that closed at $1,749,990. Most sales landed between $550,000 and $700,000, which is the core of Daybreak home values for single family right now.</p>
+
+<p>Homes took a median of 40 days to sell, and the average sale-to-list ratio was 99.0%. Eleven of the 26 went under contract in 30 days or less. Four buyers paid cash.</p>
+
+<h2>🏘️ Townhomes, Condos and Twin Homes: $421,000 Median</h2>
+
+<p>Thirteen attached homes sold in October at a median of $421,000. On a price per square foot basis, they sold for $266, well above single family. That gap is normal. Smaller homes carry higher per-foot prices, and many of these townhomes were built between 2024 and 2026.</p>
+
+<p>A big share of the activity came from newer townhomes along the west end of South Jordan Parkway, plus a new Downtown Daybreak townhome on Freestone Road that closed at $513,025. Prices ranged from $317,043 for a condo up to that Freestone Road sale. New construction keeps shaping the attached-home numbers, just as it did in <a href="/daybreak-newsletter/daybreak-home-sales-september-2026">our September sales breakdown</a>.</p>
+
+<p>Attached homes moved a bit faster than single family, with a median of 36 days on market. Seven of the 13 sold at or above list price. Financing was mixed, with FHA, VA, conventional and cash buyers all represented, which shows how much Daybreak townhomes for sale matter to first-time buyers in South Jordan.</p>
+
+<h2>📊 Selling a Home in Daybreak: Price Is Everything</h2>
+
+<p>The most useful number from October isn't the median. It's this: 12 of the 26 single family homes sold at or above list price, and 12 had a price reduction before going under contract.</p>
+
+<p>That split says a lot. Buyers are active and willing to pay full price for homes that are priced right. They're also patient. Homes listed above what the market supports sat longer and needed one or more reductions to sell, and several single family homes spent over 100 days on market before closing. It's the same pattern behind <a href="/daybreak-newsletter/overpricing-biggest-mistake-daybreak-sellers">why overpricing costs Daybreak sellers</a>.</p>
+
+<p>If you're planning to sell your home in Daybreak this winter, keep three things in mind:</p>
+
+<ul>
+  <li><strong>Price to recent sales on your street, not the spring peak.</strong> Buyers and their agents are looking at the same closed data you are.</li>
+  <li><strong>The first two to three weeks matter most.</strong> Well-priced homes in October drew offers quickly. Homes that missed that window usually ended up reducing.</li>
+  <li><strong>New construction is your competition.</strong> Builders were closing new homes at full price in villages across Daybreak. A resale home needs to stack up on price, condition, or location.</li>
+</ul>
+
+<h2>🔑 What October Means for Daybreak Buyers</h2>
+
+<p>For buyers, the Daybreak Utah housing market is giving you more room than it did a few years ago. A median of 40 days on market for single family homes means you often have time to tour, think, and write a considered offer instead of rushing.</p>
+
+<p>Homes that have been listed for a month or more, especially ones with a price reduction already, are where you'll find the most flexibility. A freshly listed home priced in line with recent sales may still draw full-price offers, so don't assume every seller will negotiate.</p>
+
+<p>If you're comparing villages, ask for the sales data by area. A lakefront home near Lake Island, a cottage in SpringHouse, and a townhome near Downtown Daybreak are three very different markets inside the same community.</p>
+
+<p><em>Source: Wasatch Front Regional MLS, closed residential sales October 1 to 31, 2026, Daybreak subdivisions only. Sale-to-list ratio uses final list price. Data deemed reliable but not guaranteed.</em></p>
+
+<div class="cta-block">
+  <h3>Want the Numbers for Your Street?</h3>
+  <p>Market reports give you the big picture, but your home's value depends on the sales closest to you. Tommy Wolf tracks Daybreak sales every month and can pull a free breakdown of recent closings in your village, whether you're thinking about buying, selling, or just curious. No pressure, just real answers from a neighbor who knows Daybreak inside and out.</p>
+  <a href="mailto:twolfrealestate@gmail.com" class="cta-button">Email Tommy</a>
+</div>`,
 }
 
 const posts: Post[] = postsMeta.map(meta => ({
